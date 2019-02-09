@@ -1,0 +1,1565 @@
+"icgc_donor_id","icgc_sample_id","variant_type","chr","chr_bkpt","chr_range","chr_bkpt_beg","chr_bkpt_end"
+"DO36167","SA413928","tandem duplication","7",138539032,0,138539032,138539032
+"DO36151","SA413912","reciprocal translocation","6",163987396,0,163987396,163987396
+"DO36143","SA413904","tandem duplication","7",138537675,0,138537675,138537675
+"DO36159","SA413920","tandem duplication","7",138548514,0,138548514,138548514
+"DO36155","SA413916","tandem duplication","7",138541988,0,138541988,138541988
+"DO36127","SA413888","tandem duplication","7",138537319,0,138537319,138537319
+"DO36123","SA413884","reciprocal translocation","1",11870279,0,11870279,11870279
+"DO36139","SA413900","tandem duplication","7",138543923,0,138543923,138543923
+"DO36135","SA413896","tandem duplication","7",138541805,0,138541805,138541805
+"DO36131","SA413892","tandem duplication","7",138545823,0,138545823,138545823
+"DO36107","SA413868","tandem duplication","7",138540382,0,138540382,138540382
+"DO36095","SA413854","complex interchromosomal rearrangement","9",87359276,0,87359276,87359276
+"DO36091","SA413850","tandem duplication","7",138539930,0,138539930,138539930
+"DO36087","SA413846","tandem duplication","7",138545400,0,138545400,138545400
+"DO36099","SA413859","tandem duplication","7",138538979,0,138538979,138538979
+"DO36074","SA413830","reciprocal translocation","5",179418176,0,179418176,179418176
+"DO36071","SA413826","tandem duplication","7",138542775,0,138542775,138542775
+"DO36068","SA413822","tandem duplication","7",138545770,0,138545770,138545770
+"DO36065","SA413818","tandem duplication","7",138544903,0,138544903,138544903
+"DO36077","SA413834","tandem duplication","7",138544575,0,138544575,138544575
+"DO36048","SA413794","tandem duplication","7",138541852,0,138541852,138541852
+"DO36045","SA413790","tandem duplication","7",138542814,0,138542814,138542814
+"DO36062","SA413814","tandem duplication","7",138554619,0,138554619,138554619
+"DO36057","SA413806","tandem duplication","7",138538551,0,138538551,138538551
+"DO36054","SA413802","deletion","7",143056463,0,143056463,143056463
+"DO36027","SA413766","tandem duplication","7",138544268,0,138544268,138544268
+"DO36024","SA413762","tandem duplication","8",38271154,0,38271154,38271154
+"DO36021","SA413758","tandem duplication","7",138551828,0,138551828,138551828
+"DO36039","SA413782","tandem duplication","7",138523600,0,138523600,138523600
+"DO36036","SA413778","tandem duplication","7",138546699,0,138546699,138546699
+"DO36033","SA413774","tandem duplication","7",138545930,0,138545930,138545930
+"DO36006","SA413738","tandem duplication","7",138538937,0,138538937,138538937
+"DO36003","SA413734","reciprocal translocation","6",163985819,0,163985819,163985819
+"DO36018","SA413754","tandem duplication","7",138543202,0,138543202,138543202
+"DO36015","SA413750","tandem duplication","7",138547343,0,138547343,138547343
+"DO36012","SA413746","tandem duplication","7",138546213,0,138546213,138546213
+"DO35898","SA413594","tandem duplication","7",138548901,0,138548901,138548901
+"DO35895","SA413590","tandem duplication","7",138540510,0,138540510,138540510
+"DO35892","SA413586","tandem duplication","7",138541227,0,138541227,138541227
+"DO35877","SA413566","tandem duplication","7",138546748,0,138546748,138546748
+"DO35874","SA413562","tandem duplication","7",138544903,0,138544903,138544903
+"DO35889","SA413582","tandem duplication","7",138550987,0,138550987,138550987
+"DO35886","SA413578","tandem duplication","7",138527008,0,138527008,138527008
+"DO35883","SA413574","tandem duplication","7",138542535,0,138542535,138542535
+"DO35880","SA413570","tandem duplication","7",138550359,0,138550359,138550359
+"DO35869","SA413554","tandem duplication","7",138541734,0,138541734,138541734
+"DO35866","SA413550","tandem duplication","7",138542401,0,138542401,138542401
+"DO35919","SA413622","inversion","7",79768432,0,79768432,79768432
+"DO35916","SA413618","tandem duplication","7",138539890,0,138539890,138539890
+"DO35913","SA413614","tandem duplication","7",138538012,0,138538012,138538012
+"DO35925","SA413630","tandem duplication","7",138539416,0,138539416,138539416
+"DO35922","SA413626","tandem duplication","7",138537119,0,138537119,138537119
+"DO35907","SA413606","tandem duplication","7",138543362,0,138543362,138543362
+"DO35904","SA413602","tandem duplication","7",138541121,0,138541121,138541121
+"DO35901","SA413598","tandem duplication","7",138547176,0,138547176,138547176
+"DO35997","SA413726","tandem duplication","7",138540429,0,138540429,138540429
+"DO35976","SA413698","tandem duplication","7",138543665,0,138543665,138543665
+"DO35973","SA413693","tandem duplication","7",138538589,0,138538589,138538589
+"DO35985","SA413710","tandem duplication","7",138538503,0,138538503,138538503
+"DO35952","SA413664","tandem duplication","7",138541846,0,138541846,138541846
+"DO35967","SA413684","tandem duplication","7",138547558,0,138547558,138547558
+"DO35964","SA413680","tandem duplication","7",140156585,0,140156585,140156585
+"DO35961","SA413676","tandem duplication","7",138537592,0,138537592,138537592
+"DO35934","SA413642","tandem duplication","7",138542583,0,138542583,138542583
+"DO35931","SA413638","tandem duplication","7",138543040,0,138543040,138543040
+"DO35949","SA413660","tandem duplication","7",138551634,0,138551634,138551634
+"DO35946","SA413656","tandem duplication","7",138542839,0,138542839,138542839
+"DO35943","SA413652","tandem duplication","7",138546185,0,138546185,138546185
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50798716,0,50798716,50798716
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",55279105,0,55279105,55279105
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",75409148,0,75409148,75409148
+"DO35605","SA413740","complex interchromosomal rearrangement","20",31020888,0,31020888,31020888
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",41612473,0,41612473,41612473
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60193746,0,60193746,60193746
+"DO35605","SA413740","complex intrachromosomal rearrangement","12",2387147,0,2387147,2387147
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45265673,0,45265673,45265673
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",80152408,0,80152408,80152408
+"DO35605","SA413740","complex intrachromosomal rearrangement","1",78170570,0,78170570,78170570
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27692334,0,27692334,27692334
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27829421,0,27829421,27829421
+"DO35605","SA413740","complex interchromosomal rearrangement","17",33478359,0,33478359,33478359
+"DO35605","SA413740","complex interchromosomal rearrangement","1",156186653,0,156186653,156186653
+"DO35605","SA413740","complex interchromosomal rearrangement","4",14720073,0,14720073,14720073
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27475815,0,27475815,27475815
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404789,0,35404789,35404789
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50833651,0,50833651,50833651
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60423391,0,60423391,60423391
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",19044222,0,19044222,19044222
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",86329774,0,86329774,86329774
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",96004500,0,96004500,96004500
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50943686,0,50943686,50943686
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66836685,0,66836685,66836685
+"DO35605","SA413740","complex intrachromosomal rearrangement","21",42955522,0,42955522,42955522
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36653681,0,36653681,36653681
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404857,0,35404857,35404857
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",23291122,0,23291122,23291122
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",101974096,0,101974096,101974096
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",39133532,0,39133532,39133532
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405983,0,35405983,35405983
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",62748599,0,62748599,62748599
+"DO35605","SA413740","complex intrachromosomal rearrangement","18",75721727,0,75721727,75721727
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63170154,0,63170154,63170154
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",91634249,0,91634249,91634249
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",43080211,0,43080211,43080211
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61617109,0,61617109,61617109
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38962084,0,38962084,38962084
+"DO35605","SA413740","complex interchromosomal rearrangement","11",85195239,0,85195239,85195239
+"DO35605","SA413740","complex intrachromosomal rearrangement","2",149690639,0,149690639,149690639
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",46950144,0,46950144,46950144
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35780609,0,35780609,35780609
+"DO35605","SA413740","complex intrachromosomal rearrangement","5",180375000,0,180375000,180375000
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",70134775,0,70134775,70134775
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",56564619,0,56564619,56564619
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",92164886,0,92164886,92164886
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405087,0,35405087,35405087
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34752371,0,34752371,34752371
+"DO35605","SA413740","complex intrachromosomal rearrangement","17",40425539,0,40425539,40425539
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",30357629,0,30357629,30357629
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",44306895,0,44306895,44306895
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56414478,0,56414478,56414478
+"DO35605","SA413740","inversion","15",35405099,0,35405099,35405099
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",49628274,0,49628274,49628274
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",26683575,0,26683575,26683575
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66691129,0,66691129,66691129
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",68342967,0,68342967,68342967
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405784,0,35405784,35405784
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36118882,0,36118882,36118882
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",22617210,0,22617210,22617210
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",29363291,0,29363291,29363291
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",65734812,0,65734812,65734812
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",47845948,0,47845948,47845948
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35872759,0,35872759,35872759
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34502180,0,34502180,34502180
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",55852130,0,55852130,55852130
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",37809334,0,37809334,37809334
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",57115053,0,57115053,57115053
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",1600174,0,1600174,1600174
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59450259,0,59450259,59450259
+"DO35605","SA413740","complex intrachromosomal rearrangement","9",84926330,0,84926330,84926330
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",64448240,0,64448240,64448240
+"DO35605","SA413740","complex intrachromosomal rearrangement","6",157609433,0,157609433,157609433
+"DO35605","SA413740","deletion","15",35405051,0,35405051,35405051
+"DO35605","SA413740","complex interchromosomal rearrangement","18",39633392,0,39633392,39633392
+"DO35605","SA413740","complex intrachromosomal rearrangement","1",145079866,0,145079866,145079866
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36503922,0,36503922,36503922
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45497532,0,45497532,45497532
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404825,0,35404825,35404825
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",37388236,0,37388236,37388236
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50106458,0,50106458,50106458
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27638165,0,27638165,27638165
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58779827,0,58779827,58779827
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",72794376,0,72794376,72794376
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",25625740,0,25625740,25625740
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56618980,0,56618980,56618980
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27987635,0,27987635,27987635
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",33840954,0,33840954,33840954
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38846855,0,38846855,38846855
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59844939,0,59844939,59844939
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",43350415,0,43350415,43350415
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",26026945,0,26026945,26026945
+"DO35605","SA413740","complex interchromosomal rearrangement","1",91853156,0,91853156,91853156
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63924925,0,63924925,63924925
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34082813,0,34082813,34082813
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",2153486,0,2153486,2153486
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34622138,0,34622138,34622138
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",18285761,0,18285761,18285761
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404925,0,35404925,35404925
+"DO35605","SA413740","tandem duplication","19",27737869,0,27737869,27737869
+"DO35605","SA413740","complex intrachromosomal rearrangement","3",53898723,0,53898723,53898723
+"DO35605","SA413740","complex interchromosomal rearrangement","14",88237836,0,88237836,88237836
+"DO35605","SA413740","complex interchromosomal rearrangement","6",119558562,0,119558562,119558562
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36048000,0,36048000,36048000
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",33145274,0,33145274,33145274
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",52406485,0,52406485,52406485
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38159389,0,38159389,38159389
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",76614577,0,76614577,76614577
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",41370374,0,41370374,41370374
+"DO35605","SA413740","complex interchromosomal rearrangement","20",26189003,0,26189003,26189003
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",49638678,0,49638678,49638678
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",26941413,0,26941413,26941413
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35861797,0,35861797,35861797
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",75498764,0,75498764,75498764
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",33987983,0,33987983,33987983
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60297895,0,60297895,60297895
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34752392,0,34752392,34752392
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",73600835,0,73600835,73600835
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",82303408,0,82303408,82303408
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66242159,0,66242159,66242159
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",39259876,0,39259876,39259876
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",29564215,0,29564215,29564215
+"DO35605","SA413740","complex intrachromosomal rearrangement","12",17722945,0,17722945,17722945
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66963791,0,66963791,66963791
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",55518789,0,55518789,55518789
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61718256,0,61718256,61718256
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",70301222,0,70301222,70301222
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",134478891,0,134478891,134478891
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",43209318,0,43209318,43209318
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",1648566,0,1648566,1648566
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27592310,0,27592310,27592310
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404831,0,35404831,35404831
+"DO35605","SA413740","complex intrachromosomal rearrangement","16",23060241,0,23060241,23060241
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405135,0,35405135,35405135
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27692074,0,27692074,27692074
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",6529998,0,6529998,6529998
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",33153560,0,33153560,33153560
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",44785584,0,44785584,44785584
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",37418477,0,37418477,37418477
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",24718977,0,24718977,24718977
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60560245,0,60560245,60560245
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56396912,0,56396912,56396912
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50813733,0,50813733,50813733
+"DO35605","SA413740","complex interchromosomal rearrangement","17",33478374,0,33478374,33478374
+"DO35605","SA413740","complex interchromosomal rearrangement","5",71146950,0,71146950,71146950
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38963054,0,38963054,38963054
+"DO35605","SA413740","complex intrachromosomal rearrangement","20",37175080,0,37175080,37175080
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63259367,0,63259367,63259367
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",69138855,0,69138855,69138855
+"DO35605","SA413740","complex interchromosomal rearrangement","1",156186658,0,156186658,156186658
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36612312,0,36612312,36612312
+"DO35605","SA413740","complex intrachromosomal rearrangement","2",170355427,0,170355427,170355427
+"DO35605","SA413740","complex interchromosomal rearrangement","7",51781390,0,51781390,51781390
+"DO35605","SA413740","tandem duplication","18",107973,0,107973,107973
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",65433008,0,65433008,65433008
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",57572670,0,57572670,57572670
+"DO35605","SA413740","complex intrachromosomal rearrangement","3",129535039,0,129535039,129535039
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45274375,0,45274375,45274375
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35946279,0,35946279,35946279
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",64401439,0,64401439,64401439
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404814,0,35404814,35404814
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27910654,0,27910654,27910654
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66699347,0,66699347,66699347
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",53485486,0,53485486,53485486
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",37836056,0,37836056,37836056
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35406062,0,35406062,35406062
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",91726190,0,91726190,91726190
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34729937,0,34729937,34729937
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404875,0,35404875,35404875
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56589279,0,56589279,56589279
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38864400,0,38864400,38864400
+"DO35605","SA413740","inversion","15",35404787,0,35404787,35404787
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",62784551,0,62784551,62784551
+"DO35605","SA413740","inversion","15",36044622,0,36044622,36044622
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56781908,0,56781908,56781908
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",42435591,0,42435591,42435591
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",48255718,0,48255718,48255718
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",28025119,0,28025119,28025119
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",24850022,0,24850022,24850022
+"DO35605","SA413740","complex intrachromosomal rearrangement","9",99381288,0,99381288,99381288
+"DO35605","SA413740","intrachromosomal amplicon-to-amplicon","2",13598087,0,13598087,13598087
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",26031340,0,26031340,26031340
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34154892,0,34154892,34154892
+"DO35605","SA413740","complex interchromosomal rearrangement","21",9827563,0,9827563,9827563
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405071,0,35405071,35405071
+"DO35605","SA413740","complex intrachromosomal rearrangement","X",30329289,0,30329289,30329289
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",92235968,0,92235968,92235968
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",47535310,0,47535310,47535310
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60122494,0,60122494,60122494
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405921,0,35405921,35405921
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36053667,0,36053667,36053667
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58870963,0,58870963,58870963
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",61056588,0,61056588,61056588
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50930768,0,50930768,50930768
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38354283,0,38354283,38354283
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",41405752,0,41405752,41405752
+"DO35605","SA413740","complex intrachromosomal rearrangement","6",64338556,0,64338556,64338556
+"DO35605","SA413740","complex interchromosomal rearrangement","1",91853160,0,91853160,91853160
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",25626015,0,25626015,25626015
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27692336,0,27692336,27692336
+"DO35605","SA413740","complex interchromosomal rearrangement","15",39392920,0,39392920,39392920
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50108383,0,50108383,50108383
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",51116589,0,51116589,51116589
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77930005,0,77930005,77930005
+"DO35605","SA413740","complex intrachromosomal rearrangement","17",40871405,0,40871405,40871405
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",1146265,0,1146265,1146265
+"DO35605","SA413740","complex interchromosomal rearrangement","11",85195240,0,85195240,85195240
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34602258,0,34602258,34602258
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59724596,0,59724596,59724596
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36141398,0,36141398,36141398
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",37014317,0,37014317,37014317
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",43375886,0,43375886,43375886
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",89416605,0,89416605,89416605
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",21765873,0,21765873,21765873
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45613779,0,45613779,45613779
+"DO35605","SA413740","complex intrachromosomal rearrangement","1",78990540,0,78990540,78990540
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",30935070,0,30935070,30935070
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",18414602,0,18414602,18414602
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404885,0,35404885,35404885
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",15171873,0,15171873,15171873
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36382985,0,36382985,36382985
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",1759629,0,1759629,1759629
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66752080,0,66752080,66752080
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",37031361,0,37031361,37031361
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27692092,0,27692092,27692092
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38019644,0,38019644,38019644
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38954553,0,38954553,38954553
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",37432987,0,37432987,37432987
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",47676606,0,47676606,47676606
+"DO35605","SA413740","complex intrachromosomal rearrangement","8",35121733,0,35121733,35121733
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405943,0,35405943,35405943
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",67399798,0,67399798,67399798
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45283104,0,45283104,45283104
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",64447707,0,64447707,64447707
+"DO35605","SA413740","complex intrachromosomal rearrangement","16",34392074,0,34392074,34392074
+"DO35605","SA413740","complex interchromosomal rearrangement","13",28033989,0,28033989,28033989
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35406068,0,35406068,35406068
+"DO35605","SA413740","complex interchromosomal rearrangement","20",29653973,0,29653973,29653973
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",29932964,0,29932964,29932964
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50824388,0,50824388,50824388
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60186676,0,60186676,60186676
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",69480132,0,69480132,69480132
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77996565,0,77996565,77996565
+"DO35605","SA413740","complex interchromosomal rearrangement","X",108297333,0,108297333,108297333
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50932677,0,50932677,50932677
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405083,0,35405083,35405083
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66497252,0,66497252,66497252
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404736,0,35404736,35404736
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27176088,0,27176088,27176088
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59738044,0,59738044,59738044
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59385332,0,59385332,59385332
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36079877,0,36079877,36079877
+"DO35605","SA413740","complex interchromosomal rearrangement","8",70602305,0,70602305,70602305
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34619363,0,34619363,34619363
+"DO35605","SA413740","complex intrachromosomal rearrangement","6",152778995,0,152778995,152778995
+"DO35605","SA413740","inversion","15",85461831,0,85461831,85461831
+"DO35605","SA413740","complex intrachromosomal rearrangement","17",45778542,0,45778542,45778542
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",49890667,0,49890667,49890667
+"DO35605","SA413740","complex interchromosomal rearrangement","17",33478374,0,33478374,33478374
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",26129574,0,26129574,26129574
+"DO35605","SA413740","complex intrachromosomal rearrangement","5",176195896,0,176195896,176195896
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58386821,0,58386821,58386821
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27592381,0,27592381,27592381
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",21807855,0,21807855,21807855
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",44225381,0,44225381,44225381
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",41476300,0,41476300,41476300
+"DO35605","SA413740","complex interchromosomal rearrangement","6",119558561,0,119558561,119558561
+"DO35605","SA413740","complex intrachromosomal rearrangement","2",233210308,0,233210308,233210308
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36628960,0,36628960,36628960
+"DO35605","SA413740","complex intrachromosomal rearrangement","9",112209390,0,112209390,112209390
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27692341,0,27692341,27692341
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",1149649,0,1149649,1149649
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",55519840,0,55519840,55519840
+"DO35605","SA413740","inversion","15",35404940,0,35404940,35404940
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404815,0,35404815,35404815
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",42439200,0,42439200,42439200
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",25312632,0,25312632,25312632
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61832376,0,61832376,61832376
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",32195355,0,32195355,32195355
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34751851,0,34751851,34751851
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",18415910,0,18415910,18415910
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",94397058,0,94397058,94397058
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35871338,0,35871338,35871338
+"DO35605","SA413740","complex interchromosomal rearrangement","2",133011919,0,133011919,133011919
+"DO35605","SA413740","complex intrachromosomal rearrangement","Y",14440191,0,14440191,14440191
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",53937369,0,53937369,53937369
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38684272,0,38684272,38684272
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",71368333,0,71368333,71368333
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38963868,0,38963868,38963868
+"DO35605","SA413740","complex intrachromosomal rearrangement","1",81896744,0,81896744,81896744
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",57103408,0,57103408,57103408
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",43310477,0,43310477,43310477
+"DO35605","SA413740","complex interchromosomal rearrangement","16",33964168,0,33964168,33964168
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",62841901,0,62841901,62841901
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34028982,0,34028982,34028982
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",25990006,0,25990006,25990006
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",51417905,0,51417905,51417905
+"DO35605","SA413740","complex intrachromosomal rearrangement","2",110109313,0,110109313,110109313
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36017234,0,36017234,36017234
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",49109069,0,49109069,49109069
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63383602,0,63383602,63383602
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61341703,0,61341703,61341703
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",76263449,0,76263449,76263449
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",65457219,0,65457219,65457219
+"DO35605","SA413740","complex intrachromosomal rearrangement","13",114325887,0,114325887,114325887
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405769,0,35405769,35405769
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56406665,0,56406665,56406665
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",40999069,0,40999069,40999069
+"DO35605","SA413740","tandem duplication","18",108435,0,108435,108435
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50366818,0,50366818,50366818
+"DO35605","SA413740","complex intrachromosomal rearrangement","21",41468328,0,41468328,41468328
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",24732441,0,24732441,24732441
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",73610739,0,73610739,73610739
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",92059060,0,92059060,92059060
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404849,0,35404849,35404849
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",27911295,0,27911295,27911295
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",90981137,0,90981137,90981137
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60309233,0,60309233,60309233
+"DO35605","SA413740","complex interchromosomal rearrangement","1",156186608,0,156186608,156186608
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",86078634,0,86078634,86078634
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56614544,0,56614544,56614544
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",867271,0,867271,867271
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",33814655,0,33814655,33814655
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",28262125,0,28262125,28262125
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",46078315,0,46078315,46078315
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45127457,0,45127457,45127457
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34468710,0,34468710,34468710
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",115892335,0,115892335,115892335
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",19854988,0,19854988,19854988
+"DO35588","SA413670","complex intrachromosomal rearrangement","15",34034045,0,34034045,34034045
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",5303246,0,5303246,5303246
+"DO35588","SA413670","tandem duplication","21",10762071,0,10762071,10762071
+"DO35588","SA413670","complex intrachromosomal rearrangement","5",180374717,0,180374717,180374717
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",2071045,0,2071045,2071045
+"DO35588","SA413670","deletion","4",55196757,0,55196757,55196757
+"DO35588","SA413670","tandem duplication","22",23100694,0,23100694,23100694
+"DO35588","SA413670","inversion","4",56733648,0,56733648,56733648
+"DO35588","SA413670","tandem duplication","4",56841624,0,56841624,56841624
+"DO35588","SA413670","deletion","13",113421402,0,113421402,113421402
+"DO35588","SA413670","tandem duplication","10",42387688,0,42387688,42387688
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",2356776,0,2356776,2356776
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",19958257,0,19958257,19958257
+"DO35588","SA413670","deletion","2",166523101,0,166523101,166523101
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",3597143,0,3597143,3597143
+"DO35588","SA413670","deletion","4",662370,0,662370,662370
+"DO35588","SA413670","deletion","16",69854301,0,69854301,69854301
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",53097786,0,53097786,53097786
+"DO35588","SA413670","tandem duplication","14",106877137,0,106877137,106877137
+"DO35588","SA413670","complex interchromosomal rearrangement","17",33478369,0,33478369,33478369
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",20359221,0,20359221,20359221
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",56803911,0,56803911,56803911
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",22482795,0,22482795,22482795
+"DO35588","SA413670","inversion","4",59606064,0,59606064,59606064
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",23727492,0,23727492,23727492
+"DO35588","SA413670","deletion","19",564799,0,564799,564799
+"DO35588","SA413670","complex interchromosomal rearrangement","1",156186643,0,156186643,156186643
+"DO35588","SA413670","complex intrachromosomal rearrangement","2",85364248,0,85364248,85364248
+"DO35588","SA413670","inversion","11",55444057,0,55444057,55444057
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",31864190,0,31864190,31864190
+"DO35588","SA413670","deletion","12",11999513,0,11999513,11999513
+"DO35588","SA413670","deletion","3",45496751,0,45496751,45496751
+"DO35588","SA413670","deletion","4",57112518,0,57112518,57112518
+"DO35588","SA413670","inversion","12",20344277,0,20344277,20344277
+"DO35588","SA413670","complex intrachromosomal rearrangement","2",14156532,0,14156532,14156532
+"DO35588","SA413670","complex intrachromosomal rearrangement","21",42955390,0,42955390,42955390
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",1934384,0,1934384,1934384
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",56279625,0,56279625,56279625
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",4512391,0,4512391,4512391
+"DO35588","SA413670","inversion","4",56804303,0,56804303,56804303
+"DO35588","SA413670","deletion","4",56848408,0,56848408,56848408
+"DO35588","SA413670","tandem duplication","18",77380129,0,77380129,77380129
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",119939305,0,119939305,119939305
+"DO35588","SA413670","deletion","12",20555370,0,20555370,20555370
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",20451650,0,20451650,20451650
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",2356986,0,2356986,2356986
+"DO35588","SA413670","deletion","17",213236,0,213236,213236
+"DO35588","SA413670","deletion","15",58582268,0,58582268,58582268
+"DO35588","SA413670","complex interchromosomal rearrangement","1",156186648,0,156186648,156186648
+"DO35588","SA413670","tandem duplication","10",133284841,0,133284841,133284841
+"DO35588","SA413670","tandem duplication","4",38623365,0,38623365,38623365
+"DO35588","SA413670","tandem duplication","5",99754938,0,99754938,99754938
+"DO35588","SA413670","deletion","19",2288999,0,2288999,2288999
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23184210,0,23184210,23184210
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",20356483,0,20356483,20356483
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",7540228,0,7540228,7540228
+"DO35588","SA413670","complex interchromosomal rearrangement","1",91853138,0,91853138,91853138
+"DO35588","SA413670","deletion","22",23240390,0,23240390,23240390
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",16157942,0,16157942,16157942
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",19919957,0,19919957,19919957
+"DO35588","SA413670","deletion","4",663161,0,663161,663161
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",7250202,0,7250202,7250202
+"DO35588","SA413670","tandem duplication","21",41346283,0,41346283,41346283
+"DO35588","SA413670","inversion","12",6039107,0,6039107,6039107
+"DO35588","SA413670","complex intrachromosomal rearrangement","6",157609435,0,157609435,157609435
+"DO35588","SA413670","inversion","3",62428636,0,62428636,62428636
+"DO35588","SA413670","deletion","10",42377279,0,42377279,42377279
+"DO35588","SA413670","deletion","3",77339369,0,77339369,77339369
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",103168108,0,103168108,103168108
+"DO35588","SA413670","complex intrachromosomal rearrangement","13",114325864,0,114325864,114325864
+"DO35588","SA413670","complex intrachromosomal rearrangement","2",110109209,0,110109209,110109209
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",55196757,0,55196757,55196757
+"DO35588","SA413670","deletion","8",11993040,0,11993040,11993040
+"DO35588","SA413670","complex interchromosomal rearrangement","20",29653973,0,29653973,29653973
+"DO35588","SA413670","complex intrachromosomal rearrangement","17",41399870,0,41399870,41399870
+"DO35588","SA413670","inversion","12",11001747,0,11001747,11001747
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",2074250,0,2074250,2074250
+"DO35588","SA413670","complex intrachromosomal rearrangement","2",149690550,0,149690550,149690550
+"DO35588","SA413670","deletion","2",121730298,0,121730298,121730298
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",22248606,0,22248606,22248606
+"DO35588","SA413670","tandem duplication","12",22248606,0,22248606,22248606
+"DO35588","SA413670","complex intrachromosomal rearrangement","5",155138565,0,155138565,155138565
+"DO35588","SA413670","tandem duplication","6",161263010,0,161263010,161263010
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",4512436,0,4512436,4512436
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",11188586,0,11188586,11188586
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",56326244,0,56326244,56326244
+"DO35588","SA413670","complex intrachromosomal rearrangement","18",75721852,0,75721852,75721852
+"DO35588","SA413670","tandem duplication","4",56688892,0,56688892,56688892
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",3596541,0,3596541,3596541
+"DO35588","SA413670","deletion","3",195502794,0,195502794,195502794
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",20359046,0,20359046,20359046
+"DO35588","SA413670","complex intrachromosomal rearrangement","14",26854924,0,26854924,26854924
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",38623762,0,38623762,38623762
+"DO35588","SA413670","deletion","22",43101524,0,43101524,43101524
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",114704412,0,114704412,114704412
+"DO35588","SA413670","deletion","16",34184395,0,34184395,34184395
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23184480,0,23184480,23184480
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",23554909,0,23554909,23554909
+"DO35588","SA413670","deletion","11",134796368,0,134796368,134796368
+"DO35588","SA413670","complex interchromosomal rearrangement","21",9827569,0,9827569,9827569
+"DO35588","SA413670","inversion","4",56846080,0,56846080,56846080
+"DO35588","SA413670","deletion","4",33415967,0,33415967,33415967
+"DO35588","SA413670","deletion","9",33794165,0,33794165,33794165
+"DO35588","SA413670","tandem duplication","21",10719449,0,10719449,10719449
+"DO35588","SA413670","complex intrachromosomal rearrangement","11",69089751,0,69089751,69089751
+"DO35588","SA413670","deletion","4",57033925,0,57033925,57033925
+"DO35588","SA413670","tandem duplication","22",16857174,0,16857174,16857174
+"DO35588","SA413670","deletion","17",19306227,0,19306227,19306227
+"DO35588","SA413670","complex interchromosomal rearrangement","1",156186652,0,156186652,156186652
+"DO35588","SA413670","inversion","4",55183291,0,55183291,55183291
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",19956957,0,19956957,19956957
+"DO35588","SA413670","complex interchromosomal rearrangement","1",91853163,0,91853163,91853163
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",56788702,0,56788702,56788702
+"DO35588","SA413670","deletion","12",23523888,0,23523888,23523888
+"DO35589","SA413678","deletion","10",5889444,0,5889444,5889444
+"DO35589","SA413678","deletion","4",162842237,0,162842237,162842237
+"DO35589","SA413678","deletion","3",94475054,0,94475054,94475054
+"DO35589","SA413678","deletion","4",127409081,0,127409081,127409081
+"DO35589","SA413678","complex intrachromosomal rearrangement","14",20664900,0,20664900,20664900
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",183737296,0,183737296,183737296
+"DO35589","SA413678","complex intrachromosomal rearrangement","10",48429595,0,48429595,48429595
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","2",14216833,0,14216833,14216833
+"DO35589","SA413678","complex intrachromosomal rearrangement","11",41577279,0,41577279,41577279
+"DO35589","SA413678","tandem duplication","1",755860,0,755860,755860
+"DO35589","SA413678","deletion","18",194085,0,194085,194085
+"DO35589","SA413678","deletion","11",118909279,0,118909279,118909279
+"DO35589","SA413678","deletion","13",113441409,0,113441409,113441409
+"DO35589","SA413678","deletion","13",114912914,0,114912914,114912914
+"DO35589","SA413678","complex intrachromosomal rearrangement","22",21317195,0,21317195,21317195
+"DO35589","SA413678","deletion","9",69993336,0,69993336,69993336
+"DO35589","SA413678","complex intrachromosomal rearrangement","8",3492450,0,3492450,3492450
+"DO35589","SA413678","inversion","4",116867325,0,116867325,116867325
+"DO35589","SA413678","inversion","14",60913980,0,60913980,60913980
+"DO35589","SA413678","deletion","17",17422757,0,17422757,17422757
+"DO35589","SA413678","tandem duplication","22",21317195,0,21317195,21317195
+"DO35589","SA413678","tandem duplication","19",53391970,0,53391970,53391970
+"DO35589","SA413678","interchromosomal amplicon-to-amplicon","4",176109339,0,176109339,176109339
+"DO35589","SA413678","deletion","8",3492401,0,3492401,3492401
+"DO35589","SA413678","inversion","X",131005273,0,131005273,131005273
+"DO35589","SA413678","complex interchromosomal rearrangement","13",50502098,0,50502098,50502098
+"DO35589","SA413678","deletion","20",33241830,0,33241830,33241830
+"DO35589","SA413678","deletion","X",24101453,0,24101453,24101453
+"DO35589","SA413678","tandem duplication","7",20821823,0,20821823,20821823
+"DO35589","SA413678","deletion","3",195413609,0,195413609,195413609
+"DO35589","SA413678","deletion","15",22511897,0,22511897,22511897
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",116953341,0,116953341,116953341
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",120596559,0,120596559,120596559
+"DO35589","SA413678","tandem duplication","11",54836121,0,54836121,54836121
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",124543475,0,124543475,124543475
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","3",131021629,0,131021629,131021629
+"DO35589","SA413678","tandem duplication","8",1190403,0,1190403,1190403
+"DO35589","SA413678","tandem duplication","9",140222358,0,140222358,140222358
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",164458233,0,164458233,164458233
+"DO35589","SA413678","deletion","4",125417715,0,125417715,125417715
+"DO35589","SA413678","deletion","5",18597897,0,18597897,18597897
+"DO35589","SA413678","complex intrachromosomal rearrangement","11",38614205,0,38614205,38614205
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",124098007,0,124098007,124098007
+"DO35589","SA413678","deletion","17",35755643,0,35755643,35755643
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",164803329,0,164803329,164803329
+"DO35589","SA413678","deletion","5",81566064,0,81566064,81566064
+"DO35589","SA413678","deletion","19",54860980,0,54860980,54860980
+"DO35589","SA413678","tandem duplication","10",42385006,0,42385006,42385006
+"DO35589","SA413678","deletion","10",87243887,0,87243887,87243887
+"DO35589","SA413678","inversion","17",16103883,0,16103883,16103883
+"DO35589","SA413678","deletion","4",126881752,0,126881752,126881752
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","3",139616963,0,139616963,139616963
+"DO35589","SA413678","deletion","3",130691620,0,130691620,130691620
+"DO35589","SA413678","deletion","20",59950819,0,59950819,59950819
+"DO35589","SA413678","deletion","X",48091699,0,48091699,48091699
+"DO35589","SA413678","interchromosomal amplicon-to-amplicon","4",159858310,0,159858310,159858310
+"DO35589","SA413678","complex intrachromosomal rearrangement","12",11191764,0,11191764,11191764
+"DO35589","SA413678","inversion","8",54353396,0,54353396,54353396
+"DO35589","SA413678","complex intrachromosomal rearrangement","1",63444401,0,63444401,63444401
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",128368058,0,128368058,128368058
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",115961657,0,115961657,115961657
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",120610969,0,120610969,120610969
+"DO35589","SA413678","deletion","4",129174670,0,129174670,129174670
+"DO35589","SA413678","complex intrachromosomal rearrangement","14",106815470,0,106815470,106815470
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","3",112938044,0,112938044,112938044
+"DO35589","SA413678","deletion","8",29154862,0,29154862,29154862
+"DO35589","SA413678","tandem duplication","7",61740932,0,61740932,61740932
+"DO35589","SA413678","tandem duplication","8",46841071,0,46841071,46841071
+"DO35589","SA413678","interchromosomal amplicon-to-amplicon","4",171723347,0,171723347,171723347
+"DO35589","SA413678","deletion","14",20931330,0,20931330,20931330
+"DO35589","SA413678","complex intrachromosomal rearrangement","10",13089870,0,13089870,13089870
+"DO35589","SA413678","complex intrachromosomal rearrangement","X",49210465,0,49210465,49210465
+"DO35589","SA413678","tandem duplication","9",140224301,0,140224301,140224301
+"DO35589","SA413678","deletion","16",69854251,0,69854251,69854251
+"DO35589","SA413678","deletion","9",93682733,0,93682733,93682733
+"DO35589","SA413678","deletion","1",63444401,0,63444401,63444401
+"DO35589","SA413678","deletion","12",691470,0,691470,691470
+"DO35589","SA413678","deletion","4",169434897,0,169434897,169434897
+"DO35589","SA413678","tandem duplication","2",90449695,0,90449695,90449695
+"DO35589","SA413678","tandem duplication","12",130877124,0,130877124,130877124
+"DO35589","SA413678","deletion","3",195502833,0,195502833,195502833
+"DO35589","SA413678","tandem duplication","4",6005652,0,6005652,6005652
+"DO35589","SA413678","complex interchromosomal rearrangement","11",38226283,0,38226283,38226283
+"DO35589","SA413678","deletion","4",138089150,0,138089150,138089150
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",116503651,0,116503651,116503651
+"DO35589","SA413678","deletion","17",75331451,0,75331451,75331451
+"DO35589","SA413678","complex intrachromosomal rearrangement","12",33535367,0,33535367,33535367
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","3",113498368,0,113498368,113498368
+"DO35589","SA413678","complex intrachromosomal rearrangement","11",38615134,0,38615134,38615134
+"DO35589","SA413678","deletion","1",235255036,0,235255036,235255036
+"DO35589","SA413678","deletion","11",93967990,0,93967990,93967990
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",159597587,0,159597587,159597587
+"DO35589","SA413678","tandem duplication","7",61969832,0,61969832,61969832
+"DO35589","SA413678","deletion","4",126893974,0,126893974,126893974
+"DO35589","SA413678","tandem duplication","6",170707887,0,170707887,170707887
+"DO35589","SA413678","tandem duplication","2",159704659,0,159704659,159704659
+"DO35589","SA413678","deletion","9",14225422,0,14225422,14225422
+"DO35589","SA413678","complex intrachromosomal rearrangement","16",21667732,0,21667732,21667732
+"DO35589","SA413678","tandem duplication","16",64115978,0,64115978,64115978
+"DO35589","SA413678","deletion","3",1680055,0,1680055,1680055
+"DO35589","SA413678","deletion","X",144583283,0,144583283,144583283
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",116681164,0,116681164,116681164
+"DO35589","SA413678","deletion","16",88312507,0,88312507,88312507
+"DO35589","SA413678","deletion","4",125039479,0,125039479,125039479
+"DO35589","SA413678","deletion","7",121289076,0,121289076,121289076
+"DO35589","SA413678","deletion","13",108560554,0,108560554,108560554
+"DO35589","SA413678","deletion","4",169516229,0,169516229,169516229
+"DO35589","SA413678","inversion","10",29054148,0,29054148,29054148
+"DO35589","SA413678","tandem duplication","10",42387542,0,42387542,42387542
+"DO35589","SA413678","inversion","X",72253739,0,72253739,72253739
+"DO35589","SA413678","interchromosomal amplicon-to-amplicon","4",170360650,0,170360650,170360650
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",121087792,0,121087792,121087792
+"DO35589","SA413678","complex intrachromosomal rearrangement","7",64763921,0,64763921,64763921
+"DO35589","SA413678","deletion","3",178567660,0,178567660,178567660
+"DO35589","SA413678","deletion","14",106372436,0,106372436,106372436
+"DO35589","SA413678","tandem duplication","9",139996694,0,139996694,139996694
+"DO35589","SA413678","complex intrachromosomal rearrangement","10",29054168,0,29054168,29054168
+"DO35589","SA413678","complex intrachromosomal rearrangement","1",179666590,0,179666590,179666590
+"DO35589","SA413678","deletion","2",187196602,0,187196602,187196602
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",124191414,0,124191414,124191414
+"DO35589","SA413678","inversion","18",18517832,0,18517832,18517832
+"DO35589","SA413678","deletion","9",134260477,0,134260477,134260477
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",90998372,0,90998372,90998372
+"DO35587","SA413662","deletion","5",85794140,0,85794140,85794140
+"DO35587","SA413662","complex interchromosomal rearrangement","20",26318603,0,26318603,26318603
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",1410207,0,1410207,1410207
+"DO35587","SA413662","deletion","17",32781050,0,32781050,32781050
+"DO35587","SA413662","tandem duplication","8",143094107,0,143094107,143094107
+"DO35587","SA413662","inversion","8",10719946,0,10719946,10719946
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",32772969,0,32772969,32772969
+"DO35587","SA413662","deletion","17",48871303,0,48871303,48871303
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",99317512,0,99317512,99317512
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",42896239,0,42896239,42896239
+"DO35587","SA413662","deletion","13",79373905,0,79373905,79373905
+"DO35587","SA413662","complex interchromosomal rearrangement","12",34841679,0,34841679,34841679
+"DO35587","SA413662","deletion","18",76373587,0,76373587,76373587
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",1875838,0,1875838,1875838
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",26743059,0,26743059,26743059
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",90640706,0,90640706,90640706
+"DO35587","SA413662","tandem duplication","2",130820551,0,130820551,130820551
+"DO35587","SA413662","deletion","7",157939644,0,157939644,157939644
+"DO35587","SA413662","deletion","3",195499188,0,195499188,195499188
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",73782637,0,73782637,73782637
+"DO35587","SA413662","tandem duplication","6",170707882,0,170707882,170707882
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",92381639,0,92381639,92381639
+"DO35587","SA413662","deletion","3",47834189,0,47834189,47834189
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",55164797,0,55164797,55164797
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",48957507,0,48957507,48957507
+"DO35587","SA413662","interchromosomal amplicon-to-amplicon","X",121947652,0,121947652,121947652
+"DO35587","SA413662","deletion","1",26094329,0,26094329,26094329
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",40723689,0,40723689,40723689
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",2833855,0,2833855,2833855
+"DO35587","SA413662","complex intrachromosomal rearrangement","19",13623874,0,13623874,13623874
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",91791410,0,91791410,91791410
+"DO35587","SA413662","complex intrachromosomal rearrangement","3",4984736,0,4984736,4984736
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",90522308,0,90522308,90522308
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",87062791,0,87062791,87062791
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",9695585,0,9695585,9695585
+"DO35587","SA413662","deletion","20",26318167,0,26318167,26318167
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",17075594,0,17075594,17075594
+"DO35587","SA413662","deletion","21",47590065,0,47590065,47590065
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",93878280,0,93878280,93878280
+"DO35587","SA413662","deletion","7",101059192,0,101059192,101059192
+"DO35587","SA413662","deletion","12",107770345,0,107770345,107770345
+"DO35587","SA413662","tandem duplication","4",190606597,0,190606597,190606597
+"DO35587","SA413662","tandem duplication","12",34839918,0,34839918,34839918
+"DO35587","SA413662","inversion","5",5891742,0,5891742,5891742
+"DO35587","SA413662","deletion","19",28338512,0,28338512,28338512
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",50792381,0,50792381,50792381
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",121407933,0,121407933,121407933
+"DO35587","SA413662","deletion","11",5637325,0,5637325,5637325
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",91560973,0,91560973,91560973
+"DO35587","SA413662","inversion","11",55444032,0,55444032,55444032
+"DO35587","SA413662","complex intrachromosomal rearrangement","11",23172601,0,23172601,23172601
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",73825461,0,73825461,73825461
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",48871254,0,48871254,48871254
+"DO35587","SA413662","deletion","3",80819432,0,80819432,80819432
+"DO35587","SA413662","deletion","18",44153999,0,44153999,44153999
+"DO35587","SA413662","tandem duplication","21",10722141,0,10722141,10722141
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",28076906,0,28076906,28076906
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",57571985,0,57571985,57571985
+"DO35587","SA413662","inversion","7",106035449,0,106035449,106035449
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",10501739,0,10501739,10501739
+"DO35587","SA413662","deletion","19",10693355,0,10693355,10693355
+"DO35587","SA413662","deletion","8",1844069,0,1844069,1844069
+"DO35587","SA413662","deletion","20",60520340,0,60520340,60520340
+"DO35587","SA413662","deletion","12",131530560,0,131530560,131530560
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",90560959,0,90560959,90560959
+"DO35587","SA413662","tandem duplication","5",180042138,0,180042138,180042138
+"DO35587","SA413662","deletion","22",25089022,0,25089022,25089022
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",43443538,0,43443538,43443538
+"DO35587","SA413662","deletion","17",35755632,0,35755632,35755632
+"DO35587","SA413662","interchromosomal amplicon-to-amplicon","X",133358177,0,133358177,133358177
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",9629722,0,9629722,9629722
+"DO35587","SA413662","tandem duplication","7",61740932,0,61740932,61740932
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",90715844,0,90715844,90715844
+"DO35587","SA413662","tandem duplication","13",112934087,0,112934087,112934087
+"DO35587","SA413662","deletion","7",61753013,0,61753013,61753013
+"DO35587","SA413662","complex interchromosomal rearrangement","12",34841679,0,34841679,34841679
+"DO35587","SA413662","inversion","X",119892767,0,119892767,119892767
+"DO35587","SA413662","interchromosomal amplicon-to-amplicon","X",106556626,0,106556626,106556626
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",121432913,0,121432913,121432913
+"DO35587","SA413662","deletion","7",106116908,0,106116908,106116908
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",54107033,0,54107033,54107033
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",91663486,0,91663486,91663486
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",91803566,0,91803566,91803566
+"DO35587","SA413662","complex intrachromosomal rearrangement","19",16494334,0,16494334,16494334
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",91212287,0,91212287,91212287
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",5889265,0,5889265,5889265
+"DO35587","SA413662","deletion","1",120636222,0,120636222,120636222
+"DO35587","SA413662","complex intrachromosomal rearrangement","6",29911431,0,29911431,29911431
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",40845756,0,40845756,40845756
+"DO35587","SA413662","deletion","19",54860985,0,54860985,54860985
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",92845067,0,92845067,92845067
+"DO35587","SA413662","deletion","4",37535790,0,37535790,37535790
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",91026730,0,91026730,91026730
+"DO35587","SA413662","complex intrachromosomal rearrangement","4",188409906,0,188409906,188409906
+"DO35587","SA413662","deletion","12",34834157,0,34834157,34834157
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",65918786,0,65918786,65918786
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",117637014,0,117637014,117637014
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",27079023,0,27079023,27079023
+"DO35587","SA413662","deletion","13",114000267,0,114000267,114000267
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",129677752,0,129677752,129677752
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",41968741,0,41968741,41968741
+"DO35587","SA413662","tandem duplication","7",158133322,0,158133322,158133322
+"DO35587","SA413662","inversion","7",129201539,0,129201539,129201539
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",90471247,0,90471247,90471247
+"DO35587","SA413662","tandem duplication","21",10781262,0,10781262,10781262
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",50402026,0,50402026,50402026
+"DO35587","SA413662","deletion","18",44154023,0,44154023,44154023
+"DO35587","SA413662","deletion","12",34844731,0,34844731,34844731
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",9650762,0,9650762,9650762
+"DO35587","SA413662","deletion","19",16707988,0,16707988,16707988
+"DO35587","SA413662","deletion","3",195224208,0,195224208,195224208
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",90724457,0,90724457,90724457
+"DO35587","SA413662","tandem duplication","6",25535382,0,25535382,25535382
+"DO35587","SA413662","complex interchromosomal rearrangement","20",26318595,0,26318595,26318595
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",73833598,0,73833598,73833598
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",92351343,0,92351343,92351343
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",15853987,0,15853987,15853987
+"DO35587","SA413662","deletion","7",90522342,0,90522342,90522342
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",120424739,0,120424739,120424739
+"DO35587","SA413662","deletion","22",50295428,0,50295428,50295428
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",16553290,0,16553290,16553290
+"DO35587","SA413662","interchromosomal amplicon-to-amplicon","3",3865919,0,3865919,3865919
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",91376469,0,91376469,91376469
+"DO35587","SA413662","deletion","5",25821727,0,25821727,25821727
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",45077868,0,45077868,45077868
+"DO35587","SA413662","complex interchromosomal rearrangement","X",121804642,0,121804642,121804642
+"DO35587","SA413662","deletion","14",19275892,0,19275892,19275892
+"DO35587","SA413662","deletion","13",29948404,0,29948404,29948404
+"DO35587","SA413662","inversion","14",60913987,0,60913987,60913987
+"DO35587","SA413662","deletion","21",10847516,0,10847516,10847516
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",92000657,0,92000657,92000657
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",91778926,0,91778926,91778926
+"DO35587","SA413662","complex intrachromosomal rearrangement","4",189232547,0,189232547,189232547
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",31921782,0,31921782,31921782
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",42678552,0,42678552,42678552
+"DO35587","SA413662","deletion","7",149278471,0,149278471,149278471
+"DO35587","SA413662","complex intrachromosomal rearrangement","19",53362609,0,53362609,53362609
+"DO35587","SA413662","deletion","9",9079391,0,9079391,9079391
+"DO35587","SA413662","deletion","1",148855450,0,148855450,148855450
+"DO35587","SA413662","deletion","17",48871254,0,48871254,48871254
+"DO35587","SA413662","complex intrachromosomal rearrangement","2",50943844,0,50943844,50943844
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",90612330,0,90612330,90612330
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",56540227,0,56540227,56540227
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",40529221,0,40529221,40529221
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",5922885,0,5922885,5922885
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",71079504,0,71079504,71079504
+"DO35587","SA413662","tandem duplication","18",6952673,0,6952673,6952673
+"DO35587","SA413662","deletion","19",54990227,0,54990227,54990227
+"DO36167","SA413928","tandem duplication","7",140491303,0,140491303,140491303
+"DO36151","SA413912","reciprocal translocation","9",87447820,0,87447820,87447820
+"DO36143","SA413904","tandem duplication","7",140488522,0,140488522,140488522
+"DO36159","SA413920","tandem duplication","7",140487710,0,140487710,140487710
+"DO36155","SA413916","tandem duplication","7",140489204,0,140489204,140489204
+"DO36127","SA413888","tandem duplication","7",140491582,0,140491582,140491582
+"DO36123","SA413884","reciprocal translocation","7",140482538,0,140482538,140482538
+"DO36139","SA413900","tandem duplication","7",140493989,0,140493989,140493989
+"DO36135","SA413896","tandem duplication","7",140487674,0,140487674,140487674
+"DO36131","SA413892","tandem duplication","7",140492591,0,140492591,140492591
+"DO36107","SA413868","tandem duplication","7",140492242,0,140492242,140492242
+"DO36095","SA413854","complex interchromosomal rearrangement","9",138904208,0,138904208,138904208
+"DO36091","SA413850","tandem duplication","7",140490783,0,140490783,140490783
+"DO36087","SA413846","tandem duplication","7",140481698,0,140481698,140481698
+"DO36099","SA413859","tandem duplication","7",140488096,0,140488096,140488096
+"DO36074","SA413830","reciprocal translocation","7",140493799,0,140493799,140493799
+"DO36071","SA413826","tandem duplication","7",140489682,0,140489682,140489682
+"DO36068","SA413822","tandem duplication","7",140487941,0,140487941,140487941
+"DO36065","SA413818","tandem duplication","7",140488743,0,140488743,140488743
+"DO36077","SA413834","tandem duplication","7",140482554,0,140482554,140482554
+"DO36048","SA413794","tandem duplication","7",140491708,0,140491708,140491708
+"DO36045","SA413790","tandem duplication","7",140489670,0,140489670,140489670
+"DO36062","SA413814","tandem duplication","7",140565253,0,140565253,140565253
+"DO36057","SA413806","tandem duplication","7",140489005,0,140489005,140489005
+"DO36054","SA413802","deletion","7",140489651,0,140489651,140489651
+"DO36027","SA413766","tandem duplication","7",140493471,0,140493471,140493471
+"DO36024","SA413762","tandem duplication","8",38275628,0,38275628,38275628
+"DO36021","SA413758","tandem duplication","7",140488359,0,140488359,140488359
+"DO36039","SA413782","tandem duplication","7",140489247,0,140489247,140489247
+"DO36036","SA413778","tandem duplication","7",140488644,0,140488644,140488644
+"DO36033","SA413774","tandem duplication","7",140488742,0,140488742,140488742
+"DO36006","SA413738","tandem duplication","7",140493717,0,140493717,140493717
+"DO36003","SA413734","reciprocal translocation","9",87436057,0,87436057,87436057
+"DO36018","SA413754","tandem duplication","7",140492008,0,140492008,140492008
+"DO36015","SA413750","tandem duplication","7",140491431,0,140491431,140491431
+"DO36012","SA413746","tandem duplication","7",140488590,0,140488590,140488590
+"DO35898","SA413594","tandem duplication","7",140491222,0,140491222,140491222
+"DO35895","SA413590","tandem duplication","7",140489655,0,140489655,140489655
+"DO35892","SA413586","tandem duplication","7",140487718,0,140487718,140487718
+"DO35877","SA413566","tandem duplication","7",140494120,0,140494120,140494120
+"DO35874","SA413562","tandem duplication","7",140488743,0,140488743,140488743
+"DO35889","SA413582","tandem duplication","7",140492713,0,140492713,140492713
+"DO35886","SA413578","tandem duplication","7",140484395,0,140484395,140484395
+"DO35883","SA413574","tandem duplication","7",140491860,0,140491860,140491860
+"DO35880","SA413570","tandem duplication","7",140493539,0,140493539,140493539
+"DO35869","SA413554","tandem duplication","7",140494150,0,140494150,140494150
+"DO35866","SA413550","tandem duplication","7",140487900,0,140487900,140487900
+"DO35919","SA413622","inversion","7",140483517,0,140483517,140483517
+"DO35916","SA413618","tandem duplication","7",140493447,0,140493447,140493447
+"DO35913","SA413614","tandem duplication","7",140489456,0,140489456,140489456
+"DO35925","SA413630","tandem duplication","7",140491368,0,140491368,140491368
+"DO35922","SA413626","tandem duplication","7",140490319,0,140490319,140490319
+"DO35907","SA413606","tandem duplication","7",140493804,0,140493804,140493804
+"DO35904","SA413602","tandem duplication","7",140490161,0,140490161,140490161
+"DO35901","SA413598","tandem duplication","7",140483940,0,140483940,140483940
+"DO35997","SA413726","tandem duplication","7",140481619,0,140481619,140481619
+"DO35976","SA413698","tandem duplication","7",140492246,0,140492246,140492246
+"DO35973","SA413693","tandem duplication","7",140482637,0,140482637,140482637
+"DO35985","SA413710","tandem duplication","7",140493482,0,140493482,140493482
+"DO35952","SA413664","tandem duplication","7",140489614,0,140489614,140489614
+"DO35967","SA413684","tandem duplication","7",140488509,0,140488509,140488509
+"DO35964","SA413680","tandem duplication","7",140481763,0,140481763,140481763
+"DO35961","SA413676","tandem duplication","7",140493338,0,140493338,140493338
+"DO35934","SA413642","tandem duplication","7",140492900,0,140492900,140492900
+"DO35931","SA413638","tandem duplication","7",140491681,0,140491681,140491681
+"DO35949","SA413660","tandem duplication","7",140492333,0,140492333,140492333
+"DO35946","SA413656","tandem duplication","7",140489953,0,140489953,140489953
+"DO35943","SA413652","tandem duplication","7",140492814,0,140492814,140492814
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",101663200,0,101663200,101663200
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66736548,0,66736548,66736548
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",97267786,0,97267786,97267786
+"DO35605","SA413740","complex interchromosomal rearrangement","7",41604686,0,41604686,41604686
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",84028139,0,84028139,84028139
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",98024518,0,98024518,98024518
+"DO35605","SA413740","complex intrachromosomal rearrangement","12",6705540,0,6705540,6705540
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",51715441,0,51715441,51715441
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",102145023,0,102145023,102145023
+"DO35605","SA413740","complex intrachromosomal rearrangement","1",79568682,0,79568682,79568682
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404806,0,35404806,35404806
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",79452789,0,79452789,79452789
+"DO35605","SA413740","complex interchromosomal rearrangement","Y",10036228,0,10036228,10036228
+"DO35605","SA413740","complex interchromosomal rearrangement","21",9825502,0,9825502,9825502
+"DO35605","SA413740","complex interchromosomal rearrangement","16",34575253,0,34575253,34575253
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",40752573,0,40752573,40752573
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",70940097,0,70940097,70940097
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",88731133,0,88731133,88731133
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",62843905,0,62843905,62843905
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",23704174,0,23704174,23704174
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",89152327,0,89152327,89152327
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",98883741,0,98883741,98883741
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",57194491,0,57194491,57194491
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",86095274,0,86095274,86095274
+"DO35605","SA413740","complex intrachromosomal rearrangement","21",43005639,0,43005639,43005639
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58832549,0,58832549,58832549
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",100706389,0,100706389,100706389
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",33806523,0,33806523,33806523
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",139906781,0,139906781,139906781
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58506593,0,58506593,58506593
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59449651,0,59449651,59449651
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63389467,0,63389467,63389467
+"DO35605","SA413740","complex intrachromosomal rearrangement","18",75772072,0,75772072,75772072
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",76256967,0,76256967,76256967
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",95996492,0,95996492,95996492
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",81247110,0,81247110,81247110
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",98831850,0,98831850,98831850
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",85078749,0,85078749,85078749
+"DO35605","SA413740","complex interchromosomal rearrangement","8",70602526,0,70602526,70602526
+"DO35605","SA413740","complex intrachromosomal rearrangement","2",149790578,0,149790578,149790578
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",85617844,0,85617844,85617844
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",55111928,0,55111928,55111928
+"DO35605","SA413740","complex intrachromosomal rearrangement","5",180432033,0,180432033,180432033
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",76288348,0,76288348,76288348
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",57477969,0,57477969,57477969
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",95478041,0,95478041,95478041
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",70940383,0,70940383,70940383
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405905,0,35405905,35405905
+"DO35605","SA413740","complex intrachromosomal rearrangement","17",42841837,0,42841837,42841837
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",54269262,0,54269262,54269262
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",79824630,0,79824630,79824630
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59451576,0,59451576,59451576
+"DO35605","SA413740","inversion","15",35405911,0,35405911,35405911
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59475290,0,59475290,59475290
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",68950551,0,68950551,68950551
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",79979275,0,79979275,79979275
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",87938083,0,87938083,87938083
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36138923,0,36138923,36138923
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",47779645,0,47779645,47779645
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",22715322,0,22715322,22715322
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34721143,0,34721143,34721143
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",91148442,0,91148442,91148442
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",55080236,0,55080236,55080236
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77219970,0,77219970,77219970
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",51315095,0,51315095,51315095
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56412158,0,56412158,56412158
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77848443,0,77848443,77848443
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",101197887,0,101197887,101197887
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",21569204,0,21569204,21569204
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77922881,0,77922881,77922881
+"DO35605","SA413740","complex intrachromosomal rearrangement","9",85100582,0,85100582,85100582
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",87886231,0,87886231,87886231
+"DO35605","SA413740","complex intrachromosomal rearrangement","6",157691407,0,157691407,157691407
+"DO35605","SA413740","deletion","15",35405759,0,35405759,35405759
+"DO35605","SA413740","complex interchromosomal rearrangement","4",154611152,0,154611152,154611152
+"DO35605","SA413740","complex intrachromosomal rearrangement","1",145189859,0,145189859,145189859
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",75229477,0,75229477,75229477
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",67049070,0,67049070,67049070
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",89775335,0,89775335,89775335
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",69153588,0,69153588,69153588
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77997807,0,77997807,77997807
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",65034324,0,65034324,65034324
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",78087289,0,78087289,78087289
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77285193,0,77285193,77285193
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35406091,0,35406091,35406091
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63463499,0,63463499,63463499
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",51025797,0,51025797,51025797
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",95576509,0,95576509,95576509
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",93561908,0,93561908,93561908
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63224567,0,63224567,63224567
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",73145272,0,73145272,73145272
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",33183012,0,33183012,33183012
+"DO35605","SA413740","complex interchromosomal rearrangement","11",85195254,0,85195254,85195254
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",94534281,0,94534281,94534281
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",90796798,0,90796798,90796798
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",15038940,0,15038940,15038940
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",83813691,0,83813691,83813691
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",96336487,0,96336487,96336487
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77221222,0,77221222,77221222
+"DO35605","SA413740","tandem duplication","19",27738591,0,27738591,27738591
+"DO35605","SA413740","complex intrachromosomal rearrangement","3",53981596,0,53981596,53981596
+"DO35605","SA413740","complex interchromosomal rearrangement","2",133019404,0,133019404,133019404
+"DO35605","SA413740","complex interchromosomal rearrangement","1",91852808,0,91852808,91852808
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38826328,0,38826328,38826328
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60373138,0,60373138,60373138
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61708906,0,61708906,61708906
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",70274546,0,70274546,70274546
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",87495664,0,87495664,87495664
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66326257,0,66326257,66326257
+"DO35605","SA413740","complex interchromosomal rearrangement","12",20704363,0,20704363,20704363
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",73127112,0,73127112,73127112
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",73072495,0,73072495,73072495
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56736133,0,56736133,56736133
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",76064634,0,76064634,76064634
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36878965,0,36878965,36878965
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",69088182,0,69088182,69088182
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404837,0,35404837,35404837
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",100160977,0,100160977,100160977
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",87886874,0,87886874,87886874
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",93836383,0,93836383,93836383
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",72246421,0,72246421,72246421
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",31973108,0,31973108,31973108
+"DO35605","SA413740","complex intrachromosomal rearrangement","12",30145481,0,30145481,30145481
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",76059788,0,76059788,76059788
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",64729605,0,64729605,64729605
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",94646657,0,94646657,94646657
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",92712797,0,92712797,92712797
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",166432306,0,166432306,166432306
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58613496,0,58613496,58613496
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",1772823,0,1772823,1772823
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",88731192,0,88731192,88731192
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59448238,0,59448238,59448238
+"DO35605","SA413740","complex intrachromosomal rearrangement","16",31403655,0,31403655,31403655
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",89775349,0,89775349,89775349
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35406067,0,35406067,35406067
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",18228910,0,18228910,18228910
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45617574,0,45617574,45617574
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",82339510,0,82339510,82339510
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",71350766,0,71350766,71350766
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",25400304,0,25400304,25400304
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",95019370,0,95019370,95019370
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",71170495,0,71170495,71170495
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66438292,0,66438292,66438292
+"DO35605","SA413740","complex interchromosomal rearrangement","2",133012240,0,133012240,133012240
+"DO35605","SA413740","complex interchromosomal rearrangement","6",119558561,0,119558561,119558561
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",73186299,0,73186299,73186299
+"DO35605","SA413740","complex intrachromosomal rearrangement","20",38128173,0,38128173,38128173
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63524544,0,63524544,63524544
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",80649748,0,80649748,80649748
+"DO35605","SA413740","complex interchromosomal rearrangement","16",33963027,0,33963027,33963027
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60831312,0,60831312,60831312
+"DO35605","SA413740","complex intrachromosomal rearrangement","2",170478847,0,170478847,170478847
+"DO35605","SA413740","complex interchromosomal rearrangement","20",35133757,0,35133757,35133757
+"DO35605","SA413740","tandem duplication","18",108540,0,108540,108540
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",101841362,0,101841362,101841362
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",84934042,0,84934042,84934042
+"DO35605","SA413740","complex intrachromosomal rearrangement","3",142240426,0,142240426,142240426
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66035687,0,66035687,66035687
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",39625317,0,39625317,39625317
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",75128205,0,75128205,75128205
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61426078,0,61426078,61426078
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35427659,0,35427659,35427659
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",79208023,0,79208023,79208023
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77997806,0,77997806,77997806
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",84594945,0,84594945,84594945
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",47784193,0,47784193,47784193
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",100267686,0,100267686,100267686
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45503931,0,45503931,45503931
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60560315,0,60560315,60560315
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",72230051,0,72230051,72230051
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",53641537,0,53641537,53641537
+"DO35605","SA413740","inversion","15",35405608,0,35405608,35405608
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",69024995,0,69024995,69024995
+"DO35605","SA413740","inversion","15",36136517,0,36136517,36136517
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",92825273,0,92825273,92825273
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",70007242,0,70007242,70007242
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",80162135,0,80162135,80162135
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",29058591,0,29058591,29058591
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",39119625,0,39119625,39119625
+"DO35605","SA413740","complex intrachromosomal rearrangement","9",99638918,0,99638918,99638918
+"DO35605","SA413740","intrachromosomal amplicon-to-amplicon","2",17620755,0,17620755,17620755
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",78474256,0,78474256,78474256
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",73178927,0,73178927,73178927
+"DO35605","SA413740","complex interchromosomal rearrangement","11",85195002,0,85195002,85195002
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",47542305,0,47542305,47542305
+"DO35605","SA413740","complex intrachromosomal rearrangement","X",34697281,0,34697281,34697281
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",93156035,0,93156035,93156035
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",96255463,0,96255463,96255463
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",88782529,0,88782529,88782529
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",89774781,0,89774781,89774781
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77221533,0,77221533,77221533
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",96457909,0,96457909,96457909
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",61675249,0,61675249,61675249
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58529534,0,58529534,58529534
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",38856739,0,38856739,38856739
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",42953730,0,42953730,42953730
+"DO35605","SA413740","complex intrachromosomal rearrangement","6",105479874,0,105479874,105479874
+"DO35605","SA413740","complex interchromosomal rearrangement","17",33478115,0,33478115,33478115
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404817,0,35404817,35404817
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35406053,0,35406053,35406053
+"DO35605","SA413740","complex interchromosomal rearrangement","6",105528299,0,105528299,105528299
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",87670940,0,87670940,87670940
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",55100352,0,55100352,55100352
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",93151352,0,93151352,93151352
+"DO35605","SA413740","complex intrachromosomal rearrangement","17",70484793,0,70484793,70484793
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",8133233,0,8133233,8133233
+"DO35605","SA413740","complex interchromosomal rearrangement","X",108297333,0,108297333,108297333
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66226936,0,66226936,66226936
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63026066,0,63026066,63026066
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",77852311,0,77852311,77852311
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",45958499,0,45958499,45958499
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66031957,0,66031957,66031957
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",91127851,0,91127851,91127851
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",23062496,0,23062496,23062496
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",64077324,0,64077324,64077324
+"DO35605","SA413740","complex intrachromosomal rearrangement","1",83363860,0,83363860,83363860
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",67256394,0,67256394,67256394
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",28991025,0,28991025,28991025
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",89775080,0,89775080,89775080
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",26191860,0,26191860,26191860
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",46238874,0,46238874,46238874
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",2041362,0,2041362,2041362
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",69097083,0,69097083,69097083
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",52399652,0,52399652,52399652
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35404831,0,35404831,35404831
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",85778959,0,85778959,85778959
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58247087,0,58247087,58247087
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",64735184,0,64735184,64735184
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",92567896,0,92567896,92567896
+"DO35605","SA413740","complex intrachromosomal rearrangement","8",35291026,0,35291026,35291026
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",56590661,0,56590661,56590661
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",94652015,0,94652015,94652015
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",52816846,0,52816846,52816846
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",82306099,0,82306099,82306099
+"DO35605","SA413740","complex intrachromosomal rearrangement","16",34757694,0,34757694,34757694
+"DO35605","SA413740","complex interchromosomal rearrangement","17",45216213,0,45216213,45216213
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61425482,0,61425482,61425482
+"DO35605","SA413740","complex interchromosomal rearrangement","9",68425923,0,68425923,68425923
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60131426,0,60131426,60131426
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",63715435,0,63715435,63715435
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",76959841,0,76959841,76959841
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",88773166,0,88773166,88773166
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",87673112,0,87673112,87673112
+"DO35605","SA413740","complex interchromosomal rearrangement","17",33478118,0,33478118,33478118
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",64809294,0,64809294,64809294
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60559493,0,60559493,60559493
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",85611334,0,85611334,85611334
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60558835,0,60558835,60558835
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",73397401,0,73397401,73397401
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",96911558,0,96911558,96911558
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",86865832,0,86865832,86865832
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",62499897,0,62499897,62499897
+"DO35605","SA413740","complex interchromosomal rearrangement","6",119558571,0,119558571,119558571
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",64049806,0,64049806,64049806
+"DO35605","SA413740","complex intrachromosomal rearrangement","6",152955408,0,152955408,152955408
+"DO35605","SA413740","inversion","15",85519596,0,85519596,85519596
+"DO35605","SA413740","complex intrachromosomal rearrangement","17",62062756,0,62062756,62062756
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",59180981,0,59180981,59180981
+"DO35605","SA413740","complex interchromosomal rearrangement","21",9827584,0,9827584,9827584
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",39873798,0,39873798,39873798
+"DO35605","SA413740","complex intrachromosomal rearrangement","5",176406025,0,176406025,176406025
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",84945701,0,84945701,84945701
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",50831447,0,50831447,50831447
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",22714648,0,22714648,22714648
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",44508286,0,44508286,44508286
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",54247872,0,54247872,54247872
+"DO35605","SA413740","complex interchromosomal rearrangement","2",230045479,0,230045479,230045479
+"DO35605","SA413740","complex intrachromosomal rearrangement","2",233318177,0,233318177,233318177
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",41096490,0,41096490,41096490
+"DO35605","SA413740","complex intrachromosomal rearrangement","9",112344043,0,112344043,112344043
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",34751965,0,34751965,34751965
+"DO35605","SA413740","complex intrachromosomal rearrangement","7",7800358,0,7800358,7800358
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58532281,0,58532281,58532281
+"DO35605","SA413740","inversion","15",35405975,0,35405975,35405975
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",70940648,0,70940648,70940648
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",69956780,0,69956780,69956780
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",96150563,0,96150563,96150563
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",96679924,0,96679924,96679924
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",48516453,0,48516453,48516453
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35406002,0,35406002,35406002
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",31101146,0,31101146,31101146
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",101607021,0,101607021,101607021
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",36055662,0,36055662,36055662
+"DO35605","SA413740","complex interchromosomal rearrangement","11",85195004,0,85195004,85195004
+"DO35605","SA413740","complex intrachromosomal rearrangement","Y",15234430,0,15234430,15234430
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",67394573,0,67394573,67394573
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",90729145,0,90729145,90729145
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",79320292,0,79320292,79320292
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",55081326,0,55081326,55081326
+"DO35605","SA413740","complex intrachromosomal rearrangement","1",82117509,0,82117509,82117509
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",58691682,0,58691682,58691682
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",70270005,0,70270005,70270005
+"DO35605","SA413740","complex interchromosomal rearrangement","11",85195001,0,85195001,85195001
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",79316775,0,79316775,79316775
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",84374758,0,84374758,84374758
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",68635056,0,68635056,68635056
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",85311289,0,85311289,85311289
+"DO35605","SA413740","complex intrachromosomal rearrangement","2",110251287,0,110251287,110251287
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",89363570,0,89363570,89363570
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",79585854,0,79585854,79585854
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",98835219,0,98835219,98835219
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",99030243,0,99030243,99030243
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",87174663,0,87174663,87174663
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",78548848,0,78548848,78548848
+"DO35605","SA413740","complex intrachromosomal rearrangement","13",114426023,0,114426023,114426023
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61426368,0,61426368,61426368
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",100282989,0,100282989,100282989
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",53607843,0,53607843,53607843
+"DO35605","SA413740","tandem duplication","18",109149,0,109149,109149
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",101988899,0,101988899,101988899
+"DO35605","SA413740","complex intrachromosomal rearrangement","21",44066701,0,44066701,44066701
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",30095895,0,30095895,30095895
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",94445755,0,94445755,94445755
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",93608950,0,93608950,93608950
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",61425683,0,61425683,61425683
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",35405121,0,35405121,35405121
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",92246749,0,92246749,92246749
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",74707518,0,74707518,74707518
+"DO35605","SA413740","complex interchromosomal rearrangement","2",133013266,0,133013266,133013266
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",87814980,0,87814980,87814980
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",62885408,0,62885408,62885408
+"DO35605","SA413740","complex intrachromosomal rearrangement","4",1581792,0,1581792,1581792
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",60454777,0,60454777,60454777
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",66438978,0,66438978,66438978
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",54476292,0,54476292,54476292
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",69637985,0,69637985,69637985
+"DO35605","SA413740","complex intrachromosomal rearrangement","15",40627785,0,40627785,40627785
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",121431476,0,121431476,121431476
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",20369213,0,20369213,20369213
+"DO35588","SA413670","complex intrachromosomal rearrangement","15",47295315,0,47295315,47295315
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",22259157,0,22259157,22259157
+"DO35588","SA413670","tandem duplication","21",10762724,0,10762724,10762724
+"DO35588","SA413670","complex intrachromosomal rearrangement","5",180432585,0,180432585,180432585
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",33527520,0,33527520,33527520
+"DO35588","SA413670","deletion","4",55277010,0,55277010,55277010
+"DO35588","SA413670","tandem duplication","22",23134432,0,23134432,23134432
+"DO35588","SA413670","inversion","4",56790736,0,56790736,56790736
+"DO35588","SA413670","tandem duplication","4",56872784,0,56872784,56872784
+"DO35588","SA413670","deletion","13",113421840,0,113421840,113421840
+"DO35588","SA413670","tandem duplication","10",42388205,0,42388205,42388205
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",2884168,0,2884168,2884168
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23390562,0,23390562,23390562
+"DO35588","SA413670","deletion","2",166523574,0,166523574,166523574
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",21013616,0,21013616,21013616
+"DO35588","SA413670","deletion","4",663658,0,663658,663658
+"DO35588","SA413670","deletion","16",69858853,0,69858853,69858853
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",54003362,0,54003362,54003362
+"DO35588","SA413670","tandem duplication","14",107082711,0,107082711,107082711
+"DO35588","SA413670","complex interchromosomal rearrangement","21",9827543,0,9827543,9827543
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23525579,0,23525579,23525579
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",56872432,0,56872432,56872432
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23315033,0,23315033,23315033
+"DO35588","SA413670","inversion","4",59607538,0,59607538,59607538
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",121124467,0,121124467,121124467
+"DO35588","SA413670","deletion","19",565547,0,565547,565547
+"DO35588","SA413670","complex interchromosomal rearrangement","21",9826979,0,9826979,9826979
+"DO35588","SA413670","complex intrachromosomal rearrangement","2",88644722,0,88644722,88644722
+"DO35588","SA413670","inversion","11",55457786,0,55457786,55457786
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",32478301,0,32478301,32478301
+"DO35588","SA413670","deletion","12",12000016,0,12000016,12000016
+"DO35588","SA413670","deletion","3",45497865,0,45497865,45497865
+"DO35588","SA413670","deletion","4",57113447,0,57113447,57113447
+"DO35588","SA413670","inversion","12",20358430,0,20358430,20358430
+"DO35588","SA413670","complex intrachromosomal rearrangement","2",91794235,0,91794235,91794235
+"DO35588","SA413670","complex intrachromosomal rearrangement","21",43005560,0,43005560,43005560
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",120031183,0,120031183,120031183
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",123704028,0,123704028,123704028
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23390634,0,23390634,23390634
+"DO35588","SA413670","inversion","4",56842044,0,56842044,56842044
+"DO35588","SA413670","deletion","4",56855819,0,56855819,56855819
+"DO35588","SA413670","tandem duplication","18",77380592,0,77380592,77380592
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",121432593,0,121432593,121432593
+"DO35588","SA413670","deletion","12",20561792,0,20561792,20561792
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",22761890,0,22761890,22761890
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",2884265,0,2884265,2884265
+"DO35588","SA413670","deletion","17",213648,0,213648,213648
+"DO35588","SA413670","deletion","15",58591921,0,58591921,58591921
+"DO35588","SA413670","complex interchromosomal rearrangement","2",133013270,0,133013270,133013270
+"DO35588","SA413670","tandem duplication","10",133285270,0,133285270,133285270
+"DO35588","SA413670","tandem duplication","4",38624095,0,38624095,38624095
+"DO35588","SA413670","tandem duplication","5",99759310,0,99759310,99759310
+"DO35588","SA413670","deletion","19",2289506,0,2289506,2289506
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23354948,0,23354948,23354948
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23525091,0,23525091,23525091
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",32371383,0,32371383,32371383
+"DO35588","SA413670","complex interchromosomal rearrangement","11",85195217,0,85195217,85195217
+"DO35588","SA413670","deletion","22",23245828,0,23245828,23245828
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",48566218,0,48566218,48566218
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",20409715,0,20409715,20409715
+"DO35588","SA413670","deletion","4",663588,0,663588,663588
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",7366570,0,7366570,7366570
+"DO35588","SA413670","tandem duplication","21",41346966,0,41346966,41346966
+"DO35588","SA413670","inversion","12",6040575,0,6040575,6040575
+"DO35588","SA413670","complex intrachromosomal rearrangement","6",157691649,0,157691649,157691649
+"DO35588","SA413670","inversion","3",62431072,0,62431072,62431072
+"DO35588","SA413670","deletion","10",42378155,0,42378155,42378155
+"DO35588","SA413670","deletion","3",77340126,0,77340126,77340126
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",107714052,0,107714052,107714052
+"DO35588","SA413670","complex intrachromosomal rearrangement","13",114426002,0,114426002,114426002
+"DO35588","SA413670","complex intrachromosomal rearrangement","2",110251278,0,110251278,110251278
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",55277010,0,55277010,55277010
+"DO35588","SA413670","deletion","8",11997836,0,11997836,11997836
+"DO35588","SA413670","complex interchromosomal rearrangement","9",68425913,0,68425913,68425913
+"DO35588","SA413670","complex intrachromosomal rearrangement","17",41466036,0,41466036,41466036
+"DO35588","SA413670","inversion","12",11036186,0,11036186,11036186
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",15913826,0,15913826,15913826
+"DO35588","SA413670","complex intrachromosomal rearrangement","2",149790676,0,149790676,149790676
+"DO35588","SA413670","deletion","2",121794862,0,121794862,121794862
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",22478408,0,22478408,22478408
+"DO35588","SA413670","tandem duplication","12",22478408,0,22478408,22478408
+"DO35588","SA413670","complex intrachromosomal rearrangement","5",155188667,0,155188667,155188667
+"DO35588","SA413670","tandem duplication","6",161278544,0,161278544,161278544
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",19959311,0,19959311,19959311
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",29102643,0,29102643,29102643
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",152743190,0,152743190,152743190
+"DO35588","SA413670","complex intrachromosomal rearrangement","18",75772156,0,75772156,75772156
+"DO35588","SA413670","tandem duplication","4",57059491,0,57059491,57059491
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",21013620,0,21013620,21013620
+"DO35588","SA413670","deletion","3",195503226,0,195503226,195503226
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23523379,0,23523379,23523379
+"DO35588","SA413670","complex intrachromosomal rearrangement","14",30667922,0,30667922,30667922
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",41458623,0,41458623,41458623
+"DO35588","SA413670","deletion","22",43102218,0,43102218,43102218
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",152495756,0,152495756,152495756
+"DO35588","SA413670","deletion","16",34185852,0,34185852,34185852
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",23355160,0,23355160,23355160
+"DO35588","SA413670","intrachromosomal amplicon-to-amplicon","2",48236089,0,48236089,48236089
+"DO35588","SA413670","deletion","11",134797448,0,134797448,134797448
+"DO35588","SA413670","complex interchromosomal rearrangement","11",85195007,0,85195007,85195007
+"DO35588","SA413670","inversion","4",56847633,0,56847633,56847633
+"DO35588","SA413670","deletion","4",33425744,0,33425744,33425744
+"DO35588","SA413670","deletion","9",33794777,0,33794777,33794777
+"DO35588","SA413670","tandem duplication","21",10720311,0,10720311,10720311
+"DO35588","SA413670","complex intrachromosomal rearrangement","11",69139794,0,69139794,69139794
+"DO35588","SA413670","deletion","4",57036399,0,57036399,57036399
+"DO35588","SA413670","tandem duplication","22",16858670,0,16858670,16858670
+"DO35588","SA413670","deletion","17",19312271,0,19312271,19312271
+"DO35588","SA413670","complex interchromosomal rearrangement","16",33963032,0,33963032,33963032
+"DO35588","SA413670","inversion","4",55282898,0,55282898,55282898
+"DO35588","SA413670","complex intrachromosomal rearrangement","12",20345242,0,20345242,20345242
+"DO35588","SA413670","complex interchromosomal rearrangement","17",33478114,0,33478114,33478114
+"DO35588","SA413670","complex intrachromosomal rearrangement","4",57032247,0,57032247,57032247
+"DO35588","SA413670","deletion","12",23525136,0,23525136,23525136
+"DO35589","SA413678","deletion","10",5892798,0,5892798,5892798
+"DO35589","SA413678","deletion","4",162844509,0,162844509,162844509
+"DO35589","SA413678","deletion","3",94554725,0,94554725,94554725
+"DO35589","SA413678","deletion","4",127414164,0,127414164,127414164
+"DO35589","SA413678","complex intrachromosomal rearrangement","14",80311910,0,80311910,80311910
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",200282232,0,200282232,200282232
+"DO35589","SA413678","complex intrachromosomal rearrangement","10",49919974,0,49919974,49919974
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","2",16903720,0,16903720,16903720
+"DO35589","SA413678","complex intrachromosomal rearrangement","11",43868468,0,43868468,43868468
+"DO35589","SA413678","tandem duplication","1",756320,0,756320,756320
+"DO35589","SA413678","deletion","18",194934,0,194934,194934
+"DO35589","SA413678","deletion","11",118912388,0,118912388,118912388
+"DO35589","SA413678","deletion","13",113441964,0,113441964,113441964
+"DO35589","SA413678","deletion","13",114913342,0,114913342,114913342
+"DO35589","SA413678","complex intrachromosomal rearrangement","22",21398564,0,21398564,21398564
+"DO35589","SA413678","deletion","9",69996530,0,69996530,69996530
+"DO35589","SA413678","complex intrachromosomal rearrangement","8",3852149,0,3852149,3852149
+"DO35589","SA413678","inversion","4",116914785,0,116914785,116914785
+"DO35589","SA413678","inversion","14",60941008,0,60941008,60941008
+"DO35589","SA413678","deletion","17",17432354,0,17432354,17432354
+"DO35589","SA413678","tandem duplication","22",21398564,0,21398564,21398564
+"DO35589","SA413678","tandem duplication","19",53419572,0,53419572,53419572
+"DO35589","SA413678","interchromosomal amplicon-to-amplicon","14",80230194,0,80230194,80230194
+"DO35589","SA413678","deletion","8",3852146,0,3852146,3852146
+"DO35589","SA413678","inversion","X",131007873,0,131007873,131007873
+"DO35589","SA413678","complex interchromosomal rearrangement","18",70220182,0,70220182,70220182
+"DO35589","SA413678","deletion","20",33244289,0,33244289,33244289
+"DO35589","SA413678","deletion","X",24101878,0,24101878,24101878
+"DO35589","SA413678","tandem duplication","7",20846813,0,20846813,20846813
+"DO35589","SA413678","deletion","3",195414066,0,195414066,195414066
+"DO35589","SA413678","deletion","15",22512452,0,22512452,22512452
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",164151091,0,164151091,164151091
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",122113238,0,122113238,122113238
+"DO35589","SA413678","tandem duplication","11",54837739,0,54837739,54837739
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",164588491,0,164588491,164588491
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","3",139858259,0,139858259,139858259
+"DO35589","SA413678","tandem duplication","8",1190984,0,1190984,1190984
+"DO35589","SA413678","tandem duplication","9",140222793,0,140222793,140222793
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",175842161,0,175842161,175842161
+"DO35589","SA413678","deletion","4",125420610,0,125420610,125420610
+"DO35589","SA413678","deletion","5",18599076,0,18599076,18599076
+"DO35589","SA413678","complex intrachromosomal rearrangement","11",38855827,0,38855827,38855827
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",170394907,0,170394907,170394907
+"DO35589","SA413678","deletion","17",35758807,0,35758807,35758807
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",170426855,0,170426855,170426855
+"DO35589","SA413678","deletion","5",81569479,0,81569479,81569479
+"DO35589","SA413678","deletion","19",54861397,0,54861397,54861397
+"DO35589","SA413678","tandem duplication","10",42386679,0,42386679,42386679
+"DO35589","SA413678","deletion","10",87245324,0,87245324,87245324
+"DO35589","SA413678","inversion","17",16109151,0,16109151,16109151
+"DO35589","SA413678","deletion","4",126883750,0,126883750,126883750
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","3",139858020,0,139858020,139858020
+"DO35589","SA413678","deletion","3",130695074,0,130695074,130695074
+"DO35589","SA413678","deletion","20",59951224,0,59951224,59951224
+"DO35589","SA413678","deletion","X",48093046,0,48093046,48093046
+"DO35589","SA413678","interchromosomal amplicon-to-amplicon","14",79925792,0,79925792,79925792
+"DO35589","SA413678","complex intrachromosomal rearrangement","12",11292955,0,11292955,11292955
+"DO35589","SA413678","inversion","8",54374196,0,54374196,54374196
+"DO35589","SA413678","complex intrachromosomal rearrangement","1",63528602,0,63528602,63528602
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",170025020,0,170025020,170025020
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",120963994,0,120963994,120963994
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",183771998,0,183771998,183771998
+"DO35589","SA413678","deletion","4",129175185,0,129175185,129175185
+"DO35589","SA413678","complex intrachromosomal rearrangement","14",107130874,0,107130874,107130874
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","3",141173305,0,141173305,141173305
+"DO35589","SA413678","deletion","8",29155446,0,29155446,29155446
+"DO35589","SA413678","tandem duplication","7",61755057,0,61755057,61755057
+"DO35589","SA413678","tandem duplication","8",46842306,0,46842306,46842306
+"DO35589","SA413678","interchromosomal amplicon-to-amplicon","14",20670397,0,20670397,20670397
+"DO35589","SA413678","deletion","14",20936752,0,20936752,20936752
+"DO35589","SA413678","complex intrachromosomal rearrangement","10",50289722,0,50289722,50289722
+"DO35589","SA413678","complex intrachromosomal rearrangement","X",49366877,0,49366877,49366877
+"DO35589","SA413678","tandem duplication","9",140225015,0,140225015,140225015
+"DO35589","SA413678","deletion","16",69858834,0,69858834,69858834
+"DO35589","SA413678","deletion","9",93683237,0,93683237,93683237
+"DO35589","SA413678","deletion","1",63528602,0,63528602,63528602
+"DO35589","SA413678","deletion","12",692187,0,692187,692187
+"DO35589","SA413678","deletion","4",169441997,0,169441997,169441997
+"DO35589","SA413678","tandem duplication","2",90450113,0,90450113,90450113
+"DO35589","SA413678","tandem duplication","12",130878052,0,130878052,130878052
+"DO35589","SA413678","deletion","3",195504730,0,195504730,195504730
+"DO35589","SA413678","tandem duplication","4",6006070,0,6006070,6006070
+"DO35589","SA413678","complex interchromosomal rearrangement","17",16021393,0,16021393,16021393
+"DO35589","SA413678","deletion","4",138089569,0,138089569,138089569
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",207025403,0,207025403,207025403
+"DO35589","SA413678","deletion","17",75332098,0,75332098,75332098
+"DO35589","SA413678","complex intrachromosomal rearrangement","12",33818924,0,33818924,33818924
+"DO35589","SA413678","intrachromosomal amplicon-to-amplicon","3",130583576,0,130583576,130583576
+"DO35589","SA413678","complex intrachromosomal rearrangement","11",41317169,0,41317169,41317169
+"DO35589","SA413678","deletion","1",235256236,0,235256236,235256236
+"DO35589","SA413678","deletion","11",93973754,0,93973754,93973754
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",171841070,0,171841070,171841070
+"DO35589","SA413678","tandem duplication","7",61970467,0,61970467,61970467
+"DO35589","SA413678","deletion","4",126895294,0,126895294,126895294
+"DO35589","SA413678","tandem duplication","6",170708469,0,170708469,170708469
+"DO35589","SA413678","tandem duplication","2",159725562,0,159725562,159725562
+"DO35589","SA413678","deletion","9",14254550,0,14254550,14254550
+"DO35589","SA413678","complex intrachromosomal rearrangement","16",24069189,0,24069189,24069189
+"DO35589","SA413678","tandem duplication","16",64142213,0,64142213,64142213
+"DO35589","SA413678","deletion","3",1680674,0,1680674,1680674
+"DO35589","SA413678","deletion","X",144584705,0,144584705,144584705
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",127291493,0,127291493,127291493
+"DO35589","SA413678","deletion","16",88312973,0,88312973,88312973
+"DO35589","SA413678","deletion","4",125039970,0,125039970,125039970
+"DO35589","SA413678","deletion","7",121289765,0,121289765,121289765
+"DO35589","SA413678","deletion","13",108561469,0,108561469,108561469
+"DO35589","SA413678","deletion","4",169517602,0,169517602,169517602
+"DO35589","SA413678","inversion","10",29104854,0,29104854,29104854
+"DO35589","SA413678","tandem duplication","10",42388021,0,42388021,42388021
+"DO35589","SA413678","inversion","X",72283562,0,72283562,72283562
+"DO35589","SA413678","interchromosomal amplicon-to-amplicon","14",22803240,0,22803240,22803240
+"DO35589","SA413678","complex intrachromosomal rearrangement","2",121835816,0,121835816,121835816
+"DO35589","SA413678","complex intrachromosomal rearrangement","7",66469133,0,66469133,66469133
+"DO35589","SA413678","deletion","3",178568329,0,178568329,178568329
+"DO35589","SA413678","deletion","14",106382167,0,106382167,106382167
+"DO35589","SA413678","tandem duplication","9",139997341,0,139997341,139997341
+"DO35589","SA413678","complex intrachromosomal rearrangement","10",62557463,0,62557463,62557463
+"DO35589","SA413678","complex intrachromosomal rearrangement","1",182191375,0,182191375,182191375
+"DO35589","SA413678","deletion","2",187243795,0,187243795,187243795
+"DO35589","SA413678","complex intrachromosomal rearrangement","4",164362015,0,164362015,164362015
+"DO35589","SA413678","inversion","18",18518440,0,18518440,18518440
+"DO35589","SA413678","deletion","9",134266014,0,134266014,134266014
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",105987011,0,105987011,105987011
+"DO35587","SA413662","deletion","5",85795194,0,85795194,85795194
+"DO35587","SA413662","complex interchromosomal rearrangement","X",130893215,0,130893215,130893215
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",103772276,0,103772276,103772276
+"DO35587","SA413662","deletion","17",32878849,0,32878849,32878849
+"DO35587","SA413662","tandem duplication","8",143094542,0,143094542,143094542
+"DO35587","SA413662","inversion","8",10725265,0,10725265,10725265
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",32879681,0,32879681,32879681
+"DO35587","SA413662","deletion","17",48940637,0,48940637,48940637
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",104095025,0,104095025,104095025
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",44486476,0,44486476,44486476
+"DO35587","SA413662","deletion","13",79380537,0,79380537,79380537
+"DO35587","SA413662","complex interchromosomal rearrangement","8",46872792,0,46872792,46872792
+"DO35587","SA413662","deletion","18",76374035,0,76374035,76374035
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",10722429,0,10722429,10722429
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",27067877,0,27067877,27067877
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",90768468,0,90768468,90768468
+"DO35587","SA413662","tandem duplication","2",130822484,0,130822484,130822484
+"DO35587","SA413662","deletion","7",157941282,0,157941282,157941282
+"DO35587","SA413662","deletion","3",195499969,0,195499969,195499969
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",87033199,0,87033199,87033199
+"DO35587","SA413662","tandem duplication","6",170708467,0,170708467,170708467
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",92557144,0,92557144,92557144
+"DO35587","SA413662","deletion","3",47834665,0,47834665,47834665
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",64399654,0,64399654,64399654
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",68047639,0,68047639,68047639
+"DO35587","SA413662","interchromosomal amplicon-to-amplicon","3",36334979,0,36334979,36334979
+"DO35587","SA413662","deletion","1",26094843,0,26094843,26094843
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",43436945,0,43436945,43436945
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",78605776,0,78605776,78605776
+"DO35587","SA413662","complex intrachromosomal rearrangement","19",15447939,0,15447939,15447939
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",92473297,0,92473297,92473297
+"DO35587","SA413662","complex intrachromosomal rearrangement","3",36349735,0,36349735,36349735
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",90588071,0,90588071,90588071
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",127534168,0,127534168,127534168
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",16544505,0,16544505,16544505
+"DO35587","SA413662","deletion","20",26319452,0,26319452,26319452
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",66502400,0,66502400,66502400
+"DO35587","SA413662","deletion","21",47590789,0,47590789,47590789
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",119920717,0,119920717,119920717
+"DO35587","SA413662","deletion","7",101060233,0,101060233,101060233
+"DO35587","SA413662","deletion","12",107773852,0,107773852,107773852
+"DO35587","SA413662","tandem duplication","4",190607370,0,190607370,190607370
+"DO35587","SA413662","tandem duplication","12",34846528,0,34846528,34846528
+"DO35587","SA413662","inversion","5",5922594,0,5922594,5922594
+"DO35587","SA413662","deletion","19",28339456,0,28339456,28339456
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",98447862,0,98447862,98447862
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",133389821,0,133389821,133389821
+"DO35587","SA413662","deletion","11",5638933,0,5638933,5638933
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",106105823,0,106105823,106105823
+"DO35587","SA413662","inversion","11",55457785,0,55457785,55457785
+"DO35587","SA413662","complex intrachromosomal rearrangement","11",24575386,0,24575386,24575386
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",73890151,0,73890151,73890151
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",48940606,0,48940606,48940606
+"DO35587","SA413662","deletion","3",80820523,0,80820523,80820523
+"DO35587","SA413662","deletion","18",44162285,0,44162285,44162285
+"DO35587","SA413662","tandem duplication","21",10723768,0,10723768,10723768
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",66479399,0,66479399,66479399
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",58356131,0,58356131,58356131
+"DO35587","SA413662","inversion","7",106100947,0,106100947,106100947
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",66488505,0,66488505,66488505
+"DO35587","SA413662","deletion","19",10704531,0,10704531,10704531
+"DO35587","SA413662","deletion","8",1872806,0,1872806,1872806
+"DO35587","SA413662","deletion","20",60521950,0,60521950,60521950
+"DO35587","SA413662","deletion","12",131531248,0,131531248,131531248
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",106086607,0,106086607,106086607
+"DO35587","SA413662","tandem duplication","5",180042949,0,180042949,180042949
+"DO35587","SA413662","deletion","22",25090268,0,25090268,25090268
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",44140503,0,44140503,44140503
+"DO35587","SA413662","deletion","17",35758826,0,35758826,35758826
+"DO35587","SA413662","interchromosomal amplicon-to-amplicon","3",4932716,0,4932716,4932716
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",17109168,0,17109168,17109168
+"DO35587","SA413662","tandem duplication","7",61755102,0,61755102,61755102
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",91497552,0,91497552,91497552
+"DO35587","SA413662","tandem duplication","13",112940151,0,112940151,112940151
+"DO35587","SA413662","deletion","7",61755742,0,61755742,61755742
+"DO35587","SA413662","complex interchromosomal rearrangement","19",27752864,0,27752864,27752864
+"DO35587","SA413662","inversion","X",119921558,0,119921558,119921558
+"DO35587","SA413662","interchromosomal amplicon-to-amplicon","3",3588416,0,3588416,3588416
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",130860060,0,130860060,130860060
+"DO35587","SA413662","deletion","7",106119892,0,106119892,106119892
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",96117539,0,96117539,96117539
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",92128327,0,92128327,92128327
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",92030918,0,92030918,92030918
+"DO35587","SA413662","complex intrachromosomal rearrangement","19",16994600,0,16994600,16994600
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",92107029,0,92107029,92107029
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",14348517,0,14348517,14348517
+"DO35587","SA413662","deletion","1",120690664,0,120690664,120690664
+"DO35587","SA413662","complex intrachromosomal rearrangement","6",30228533,0,30228533,30228533
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",41443431,0,41443431,41443431
+"DO35587","SA413662","deletion","19",54861402,0,54861402,54861402
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",106761774,0,106761774,106761774
+"DO35587","SA413662","deletion","4",37537396,0,37537396,37537396
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",92130470,0,92130470,92130470
+"DO35587","SA413662","complex intrachromosomal rearrangement","4",189503084,0,189503084,189503084
+"DO35587","SA413662","deletion","12",34837977,0,34837977,34837977
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",136944645,0,136944645,136944645
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",120303308,0,120303308,120303308
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",55022936,0,55022936,55022936
+"DO35587","SA413662","deletion","13",114000701,0,114000701,114000701
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",132312507,0,132312507,132312507
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",42887677,0,42887677,42887677
+"DO35587","SA413662","tandem duplication","7",158134084,0,158134084,158134084
+"DO35587","SA413662","inversion","7",129204701,0,129204701,129204701
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",105787298,0,105787298,105787298
+"DO35587","SA413662","tandem duplication","21",10786007,0,10786007,10786007
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",55210345,0,55210345,55210345
+"DO35587","SA413662","deletion","18",44162305,0,44162305,44162305
+"DO35587","SA413662","deletion","12",34846356,0,34846356,34846356
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",15733400,0,15733400,15733400
+"DO35587","SA413662","deletion","19",16709424,0,16709424,16709424
+"DO35587","SA413662","deletion","3",195224895,0,195224895,195224895
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",106482610,0,106482610,106482610
+"DO35587","SA413662","tandem duplication","6",25535908,0,25535908,25535908
+"DO35587","SA413662","complex interchromosomal rearrangement","5",46346297,0,46346297,46346297
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",106515760,0,106515760,106515760
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",105896877,0,105896877,105896877
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",54957986,0,54957986,54957986
+"DO35587","SA413662","deletion","7",90588129,0,90588129,90588129
+"DO35587","SA413662","complex intrachromosomal rearrangement","X",149004603,0,149004603,149004603
+"DO35587","SA413662","deletion","22",50296213,0,50296213,50296213
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",48957757,0,48957757,48957757
+"DO35587","SA413662","interchromosomal amplicon-to-amplicon","X",121844920,0,121844920,121844920
+"DO35587","SA413662","complex intrachromosomal rearrangement","7",92127901,0,92127901,92127901
+"DO35587","SA413662","deletion","5",25826845,0,25826845,25826845
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",56806980,0,56806980,56806980
+"DO35587","SA413662","complex interchromosomal rearrangement","12",32269547,0,32269547,32269547
+"DO35587","SA413662","deletion","14",19303987,0,19303987,19303987
+"DO35587","SA413662","deletion","13",29949771,0,29949771,29949771
+"DO35587","SA413662","inversion","14",60940940,0,60940940,60940940
+"DO35587","SA413662","deletion","21",10848924,0,10848924,10848924
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",127505080,0,127505080,127505080
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",92229681,0,92229681,92229681
+"DO35587","SA413662","complex intrachromosomal rearrangement","4",189534830,0,189534830,189534830
+"DO35587","SA413662","complex intrachromosomal rearrangement","17",43403969,0,43403969,43403969
+"DO35587","SA413662","complex intrachromosomal rearrangement","8",75717941,0,75717941,75717941
+"DO35587","SA413662","deletion","7",149326391,0,149326391,149326391
+"DO35587","SA413662","complex intrachromosomal rearrangement","19",53969645,0,53969645,53969645
+"DO35587","SA413662","deletion","9",9088295,0,9088295,9088295
+"DO35587","SA413662","deletion","1",148855864,0,148855864,148855864
+"DO35587","SA413662","deletion","17",48940606,0,48940606,48940606
+"DO35587","SA413662","complex intrachromosomal rearrangement","2",51065148,0,51065148,51065148
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","7",92469025,0,92469025,92469025
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",103054335,0,103054335,103054335
+"DO35587","SA413662","complex intrachromosomal rearrangement","18",44778253,0,44778253,44778253
+"DO35587","SA413662","complex intrachromosomal rearrangement","5",14314337,0,14314337,14314337
+"DO35587","SA413662","intrachromosomal amplicon-to-amplicon","X",91194619,0,91194619,91194619
+"DO35587","SA413662","tandem duplication","18",6953106,0,6953106,6953106
+"DO35587","SA413662","deletion","19",54992899,0,54992899,54992899
