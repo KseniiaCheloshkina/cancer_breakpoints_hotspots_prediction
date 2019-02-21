@@ -1,0 +1,681 @@
+---
+title: "report"
+author: "Cheloshkina Kseniia"
+output:
+html_document: default
+pdf_document: default
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+library(reshape2)
+library(stringr)
+options(tibble.print_max = 50, tibble.print_min = 50)
+
+
+# results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl\\new\\"
+results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\q\\"
+# results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl_q\\new\\"
+
+
+
+# model_name <- "stemloops model"
+model_name <- "quadruplexes model"
+# model_name <- "stemloops and quadruplexes model"
+
+
+save_results = TRUE
+
+save_results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\q\\output_report\\"
+# save_results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl_q\\new\\output_report\\"
+# save_results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl\\new\\output_report\\"
+setwd(results_folder)
+
+
+
+#### Читаем данные
+
+n_ex_files <- list.files(results_folder)[grep("n_ex",list.files(results_folder))]
+stat_data_all_files <- list.files(results_folder)[grep("stat_data_all",list.files(results_folder))]
+ratio_recall_files <- list.files(results_folder)[grep("ratio_recall",list.files(results_folder))]
+var_imp_files <- list.files(results_folder)[grep("var_imp",list.files(results_folder))]
+
+
+stat_data_all_all <- data.frame(iter=0, fold=0, train_auc=0, test_auc=0, 
+                                dataset=0, fnm="0", stringsAsFactors = F)
+ratio_recall_data_all_all <- data.frame(iter=0, fold=0, quantile=0, recall=0,
+                                      dataset=0, fnm="0", stringsAsFactors = F)
+var_imp_all_all <- data.frame(iter=0, fold=0, imp=0, var=0,
+                            dataset=0, fnm="0", stringsAsFactors = F)
+n_ex_all <- data.frame(dataset=0, n1=0, n0=0, fnm="0", stringsAsFactors = F)
+
+
+
+
+for (i in 1:length(n_ex_files)){
+  print(i)
+  load(n_ex_files[i])
+  n_ex$fnm<-as.character(n_ex_files[i])
+  n_ex_all<-rbind(n_ex_all,n_ex)
+}
+
+
+for (i in 1:length(ratio_recall_files)){
+  load(ratio_recall_files[i])
+  if (length(grep("model", names(ratio_recall_data_all)))){
+    ratio_recall_data_all$model <- NULL
+  }
+  ratio_recall_data_all$fnm <- as.character(ratio_recall_files[i])
+  ratio_recall_data_all_all <- rbind(ratio_recall_data_all_all, ratio_recall_data_all)
+}
+
+
+
+for (i in 1:length(stat_data_all_files)){
+  load(stat_data_all_files[i])
+  if (length(grep("model", names(stat_data_all)))){
+    stat_data_all$model <- NULL
+    }
+  stat_data_all$fnm <- as.character(stat_data_all_files[i])
+  stat_data_all_all <- rbind(stat_data_all_all, stat_data_all)
+}
+
+
+
+for (i in 1:length(var_imp_files)){
+  load(var_imp_files[i])
+  if (length(grep("model", names(var_imp_all)))){
+    var_imp_all$model <- NULL
+    }
+  var_imp_all$fnm <- as.character(var_imp_files[i])
+  var_imp_all_all <- rbind(var_imp_all_all, var_imp_all)
+}
+
+var_imp_all <- var_imp_all_all
+n_ex <- n_ex_all
+stat_data_all <- stat_data_all_all
+ratio_recall_data_all <- ratio_recall_data_all_all
+
+
+###  Подготовка данных
+
+n_ex$n1 <- as.numeric(n_ex$n1)
+n_ex$n0 <- as.numeric(n_ex$n0)
+stat_data_all <- stat_data_all[stat_data_all$dataset != "0", ]
+ratio_recall_data_all <- ratio_recall_data_all[ratio_recall_data_all$dataset != "0", ]
+var_imp_all <- var_imp_all[var_imp_all$dataset != "0", ]
+n_ex <- n_ex[n_ex$dataset != "0", ]
+
+
+var_imp_all <- unique(var_imp_all)
+
+ratio_recall_data_all <- unique(ratio_recall_data_all)
+
+stat_data_all <- unique(stat_data_all)
+stat_data_all$iter <- as.character(stat_data_all$iter)
+stat_data_all$fold <- as.character(stat_data_all$fold)
+
+n_ex <- n_ex[, c("dataset", "n1", "n0")]
+
+```
+
+
+#### ROC AUC
+
+Для каждого датасета считаем статистики по ROC AUC на обучающей и тестовой выборке: медиана, стандартное отклонение,  количество моделей, используемых для оценки, квантили, доверительный интервал для среднего ROC AUC на тесте
+
+```{r auc calculation}
+# считаем метрики
+auc_data <- stat_data_all %>% group_by(dataset) %>% 
+  summarize(
+    q1_test_auc = quantile(test_auc, 0.25),
+    q3_test_auc = quantile(test_auc, 0.75),
+    per5_test_auc = quantile(test_auc, 0.05),
+    sd_test_auc = sd(test_auc),
+    test_auc = median(test_auc),
+    test_auc_mean = mean(test_auc),
+    n_auc = n(),
+    train_auc = median(train_auc))
+
+
+all_auc_data <- auc_data %>% 
+  inner_join(n_ex, by="dataset") %>% 
+  mutate(sd_ci_w = 1.96 * sd_test_auc / sqrt(n_auc),
+         q1 = test_auc_mean / (2 - test_auc_mean),
+         q2 = 2 * (test_auc_mean^2) / (1 + test_auc_mean)
+         ) %>%
+  mutate(sd_ci_0 = test_auc_mean - sd_ci_w,
+         sd_ci_1 = test_auc_mean + sd_ci_w,
+         se_w = sqrt((test_auc_mean * (1 - test_auc_mean) + (n1 - 1) * (q1 - test_auc_mean^2) + (n0 - 1) * (q2 - test_auc_mean^2)) / (n0 * n1))
+         ) %>% 
+  mutate(se_ci_0 = test_auc_mean - 1.96 * se_w / sqrt(n_auc),
+         se_ci_1 = test_auc_mean + 1.96 * se_w / sqrt(n_auc)) %>% 
+  mutate(flg_sign_sd = ifelse(sd_ci_0 < 0.5, 0, 1),
+         flg_sign_se = ifelse(se_ci_0 < 0.5, 0, 1))
+
+# выделяем тип рака
+all <- str_split(gsub("density_", "", all_auc_data$dataset), "_")
+all_auc_data$agg_level <- unlist(lapply(all, function(x) x[[1]]))
+all_auc_data$cancer_type <- unlist(lapply(all, function(x) x[[2]]))
+all_auc_data$labeling <- unlist(lapply(all, function(x) x[[5]]))
+
+agg_cancer <- all_auc_data %>% group_by(cancer_type) %>% summarize(
+  med_q1_test_auc = median(q1_test_auc),
+  med_train_auc = median(train_auc)
+) 
+dat <- melt(agg_cancer, id.vars = "cancer_type")
+```
+
+Количество датасетов с доверительным интервалом, не включающим 0.5
+
+```{r , echo=FALSE}
+sum(all_auc_data$flg_sign_sd > 0.5)
+sum(all_auc_data$flg_sign_se > 0.5)
+sum((all_auc_data$flg_sign_sd > 0.5) & (all_auc_data$flg_sign_se > 0.5))
+
+a <- all_auc_data %>%
+  group_by(cancer_type) %>%
+  summarize(n = n())
+
+b <- all_auc_data %>%
+  group_by(cancer_type) %>%
+  filter(flg_sign_se == 1) %>%
+  summarize(n_se_good = n())
+
+d <- all_auc_data %>%
+  group_by(cancer_type) %>%
+  filter(flg_sign_sd == 1) %>%
+  summarize(n_sd_good = n())
+
+a %>% inner_join(b) %>% 
+  inner_join(d) %>%
+  mutate(ratio_sd = n_sd_good / n,
+         ratio_se = n_se_good / n)
+  
+```
+
+
+```{r , echo=FALSE}
+# рисуем
+g1 <- ggplot(all_auc_data, 
+       aes(x=reorder(cancer_type, test_auc, FUN=median),
+           y=test_auc, fill=cancer_type)) +
+  geom_boxplot() + 
+  coord_flip() +
+  geom_point(data=dat, aes(x=cancer_type, group=variable, y=value, 
+                           colour=variable, shape=variable)) +
+  xlab("Cancer type") + 
+  ylab("Median test AUC") +
+  scale_shape_manual(name="Additional data",
+                     breaks=c("med_q1_test_auc", "med_train_auc"),
+                     labels=c("Median value\nof first quantile of\ndataset test AUC ", 
+                              "Median train AUC"),
+                     values=c(15, 17)) +
+  scale_fill_discrete(name="Cancer type") +
+  scale_colour_manual(name="Additional data",
+                     breaks=c("med_q1_test_auc", "med_train_auc"),
+                     labels=c("Median value\nof first quantile of\ndataset test AUC ", 
+                              "Median train AUC"),
+                     values = c("blue", "green"))
+
+g1
+
+```
+ 
+ Медианный тестовый AUC и стандартное отклонение
+ 
+```{r auc calculation1} 
+all_auc_data %>% group_by(cancer_type) %>% summarize(
+  med_test_auc = median(test_auc)
+) %>% arrange(med_test_auc)
+
+
+all_auc_data %>% group_by(cancer_type) %>% summarize(
+  sd_test_auc = sd(test_auc)
+) %>% arrange(sd_test_auc)
+
+```
+
+Лучшие модели (по медианному тестовому AUC) для каждого типа рака
+
+```{r} 
+best_models_for_cancer_type <- all_auc_data %>% 
+  group_by(cancer_type) %>% 
+  filter(test_auc == max(test_auc))  %>% 
+  select(cancer_type, agg_level, labeling, test_auc) %>% 
+  arrange(test_auc)
+
+best_models_for_cancer_type
+
+```
+
+Конфигурации датасетов с лучшими моделями
+
+```{r} 
+sort(table(best_models_for_cancer_type$agg_level))
+sort(table(best_models_for_cancer_type$labeling))
+table(best_models_for_cancer_type$labeling, best_models_for_cancer_type$agg_level)
+```
+
+Худшие модели (по медианному тестовому AUC) для каждого типа рака
+
+```{r} 
+worst_models_for_cancer_type <- all_auc_data %>% 
+  group_by(cancer_type) %>% 
+  filter(test_auc == min(test_auc))  %>% 
+  select(cancer_type, agg_level, labeling, test_auc) %>% 
+  arrange(test_auc) 
+
+worst_models_for_cancer_type
+```
+
+Конфигурации датасетов с худшими моделями
+
+```{r} 
+sort(table(worst_models_for_cancer_type$agg_level))
+sort(table(worst_models_for_cancer_type$labeling))
+table(worst_models_for_cancer_type$labeling,worst_models_for_cancer_type$agg_level)
+```
+
+Для каждого типа рака кратко все статистики (медиана трейн/тест, стандартное отклонение, разница между тестовым и трейновым AUC)
+
+```{r} 
+all_auc_data %>% 
+  group_by(cancer_type) %>% 
+  summarize(
+    med_test_auc = median(test_auc),
+    sd_test_auc = median(sd_test_auc)
+    ) %>% 
+  inner_join(agg_cancer, by="cancer_type") %>% 
+  mutate (d = med_train_auc - med_test_auc) %>%
+  mutate (rel_d = d / med_test_auc)  %>% 
+  select(cancer_type, med_test_auc, sd_test_auc, med_train_auc, rel_d) %>% 
+  arrange(sd_test_auc)
+```
+
+Посмотрим на зависимость стандартного отклонения тестового AUC от типа разметки и уровня агрегации
+
+```{r}
+sd_by_agg_lab <- all_auc_data %>% 
+  group_by(agg_level, labeling) %>% 
+  summarize(
+    med_test_auc = median(test_auc),
+    sd_test_auc = median(sd_test_auc)
+)
+
+sd_by_agg_lab$r_med_test_auc <- rank(sd_by_agg_lab$med_test_auc)
+sd_by_agg_lab$r_sd_test_auc <- rank(sd_by_agg_lab$sd_test_auc)
+
+gagg <- ggplot(sd_by_agg_lab, 
+       aes(x=agg_level, y=labeling, colour=sd_test_auc, size=med_test_auc)) +
+  geom_point() + 
+  xlab("Aggregation level") + 
+  ylab("Labeling type") +
+  scale_size_continuous(name="Median\n test AUC") +
+  scale_color_continuous(name="Standard deviation\nof test AUC")
+
+gagg
+
+```
+
+КОличество датасетов,у которых медиана тестового AUC больше 0.5
+
+```{r}
+all_auc_data %>% filter(test_auc > 0.5) %>% nrow
+```
+
+
+КОличество датасетов,у которых медиана тестового AUC больше 0.6
+
+```{r}
+all_auc_data %>% filter(test_auc > 0.6) %>% nrow
+```
+
+КОличество датасетов,у которых 5% перцентиль тестового AUC больше 0.6
+
+```{r}
+all_auc_data %>% filter(per5_test_auc > 0.6) %>% nrow
+```
+
+
+#### VARIABLE IMPORTANCE
+
+Считаем медиану оценки коэффициента для каждого предиктора
+
+```{r var imp calculation}
+
+all_var_imp_data <- var_imp_all %>% group_by(dataset, var) %>% 
+  summarize(med_imp = median(imp))
+
+
+all <- str_split(gsub("density_", "", all_var_imp_data$dataset), "_")
+all_var_imp_data$agg_level <- unlist(lapply(all, function(x) x[[1]]))
+all_var_imp_data$cancer_type <- unlist(lapply(all, function(x) x[[2]]))
+all_var_imp_data$labeling <- unlist(lapply(all, function(x) x[[5]]))
+all_var_imp_data$variable[all_var_imp_data$var == "coverage_15_30"] <- "medium stemloops"
+all_var_imp_data$variable[all_var_imp_data$var == "coverage_16_50"] <- "long stem-loops"
+all_var_imp_data$variable[all_var_imp_data$var == "coverage_sl_6_15"] <- "short stem-loops"
+all_var_imp_data$variable[all_var_imp_data$var == "v_2"] <- "quadruplexes"
+
+# all_var_imp_data$variable <- all_var_imp_data$var
+
+all_var_imp_data$variable[all_var_imp_data$var == "quadr"] <- "quadruplexes"
+all_var_imp_data$variable[all_var_imp_data$var == "coverage_15_30"] <- "medium stem-loops"
+all_var_imp_data$variable[all_var_imp_data$var == "coverage_16_50"] <- "long stem-loops"
+all_var_imp_data$variable[all_var_imp_data$var == "coverage_sl_16_50"] <- "long stem-loops"
+all_var_imp_data$variable[all_var_imp_data$var == "coverage_sl_6_15"] <- "short stem-loops"
+all_var_imp_data$cancer_type[all_var_imp_data$cancer_type == "pancreatic"] <- "pancreas"
+
+ 
+ggplot(all_var_imp_data, 
+       aes(x=variable,
+           y=med_imp,
+           fill=variable)) +
+  geom_violin(adjust=0.5) +
+  theme(legend.position="none") +
+  ylab("Median for dataset coefficient")+
+  ggtitle(paste0("Distribution of median for dataset coefficient by predictor for\n",
+                 model_name))
+
+
+g2 <- ggplot(all_var_imp_data, 
+       aes(x=cancer_type,
+           y=med_imp,
+           fill=variable))+
+  geom_boxplot() +
+  theme(legend.position="bottom") +
+  ylab("Median for dataset coefficient") +
+  xlab("Cancer type")
+g2
+
+```
+
+```{r}
+med_coef <- all_var_imp_data %>% 
+  group_by(cancer_type, var) %>%
+  summarize(med_imp = median(med_imp)) %>%
+  arrange(cancer_type, med_imp)
+med_coef
+```
+```{r}
+med_coef %>% 
+  filter(var == "coverage_sl_6_15") %>% 
+  arrange(med_imp)
+
+```
+
+```{r}
+med_coef %>% 
+  mutate(abs_coef = abs(med_imp)) %>%
+  group_by(cancer_type) %>%
+  filter(abs_coef == max(abs_coef)) %>% 
+  arrange(var)
+
+```
+
+#### RECALL
+
+```{r recall calculation}
+
+ratio_recall_data_agg_t <- ratio_recall_data_all %>% group_by(dataset, iter, quantile) %>% 
+  summarize(
+    med_recall = median(recall)
+  )
+
+ratio_recall_data_agg_t <- ratio_recall_data_agg_t %>% group_by(dataset, quantile) %>% 
+  summarize(
+    med_recall = median(med_recall)
+  )
+
+n_ex$n <- n_ex$n1 + n_ex$n0
+
+all_stat_data <- ratio_recall_data_agg_t %>% 
+  left_join(n_ex, by="dataset") %>% 
+  mutate(pred_pos = round(n * quantile),
+         tp = round(med_recall * n1)) %>%
+  mutate(fp = pred_pos - tp, pred_neg = n - pred_pos, fn = n1 - tp) %>% 
+  mutate(fdr = fp / pred_pos, tn = pred_neg - fn) %>%
+  mutate(spec = tn / (tn + fp), precision = tp / (tp + fp), rand_conv = pred_pos * (n1 / n)) %>%
+  mutate(lift = tp / rand_conv)
+
+
+
+all <- str_split(gsub("density_", "", all_stat_data$dataset), "_")
+all_stat_data$agg_level <- unlist(lapply(all, function(x) x[[1]]))
+all_stat_data$cancer_type <- unlist(lapply(all, function(x) x[[2]]))
+all_stat_data$labeling <- unlist(lapply(all, function(x) x[[5]]))
+
+a <- all_stat_data[all_stat_data$quantile %in% c("0.1", "0.2", "0.3", "0.4", "0.5"), ]
+```
+
+```{r , echo=FALSE}
+# рисуем
+g3 <- ggplot(a,
+       aes(x=as.character(quantile), y=med_recall, fill=cancer_type)) +
+  geom_boxplot() +
+  xlab("Probability quantile") +
+  ylab("Median recall") +
+  scale_fill_discrete(name="Cancer type")
+
+g3
+```
+
+
+```{r}
+a %>% 
+  filter(quantile == "0.2") %>%
+  group_by(cancer_type) %>%
+  summarize(min_recall = min(med_recall),
+            max_recall = max(med_recall)
+            )
+
+
+```
+
+
+
+Посчитаем lift of recall. 
+Лучшие модели для квантили 0,1 
+
+```{r}
+all_stat_data$lift_recall <- all_stat_data$med_recall / all_stat_data$quantile
+
+all_stat_data %>% 
+  filter(quantile == "0.1") %>% 
+  group_by(cancer_type) %>% 
+  filter(med_recall == max(med_recall)) %>%
+  select(cancer_type, agg_level, labeling, med_recall, quantile, lift) %>%
+  arrange(lift)
+```
+
+Считаем медианную полноту и q1 для квантилей по вероятности 0,1; 0,2; 0,3; 0,4; 0,5
+
+```{r}
+med_recall_cancer <- 
+  all_stat_data[all_stat_data$quantile %in% c("0.1","0.2","0.3","0.4","0.5"),] %>%
+  group_by(cancer_type, quantile) %>% 
+  summarize(med_med_recall = median(med_recall),
+            q1 = quantile(med_recall, 0.75))
+
+med_recall_cancer$all <- paste(format(med_recall_cancer$med_med_recall, digits=3), 
+                             "(",
+                             format(med_recall_cancer$q1, digits=3), 
+                             ")")
+
+med_recall_cancer <- dcast(med_recall_cancer, cancer_type ~ quantile,
+                         value.var = "all")
+```
+
+Количество датасетов с приростом полноты больше 1
+```{r}
+lift1 <- all_stat_data %>% filter(lift_recall > 1)
+
+lift1 %>% summarize(n_distinct(dataset)) %>% nrow()
+
+```
+
+Для каждого типа рака количество и доля датасетов с приростом полноты больше 1
+
+```{r}
+lift1 %>% group_by(cancer_type) %>% 
+  summarize(n_good = n_distinct(dataset)) %>% 
+  inner_join (
+    all_stat_data %>% 
+      group_by(cancer_type) %>%    
+      summarize(n_all = n_distinct(dataset))
+    ) %>%
+  mutate(perc = n_good / n_all * 100) %>% 
+  arrange(perc)
+```
+
+Количество датасетов с приростом полноты больше 1.5
+
+```{r}
+lift2 <- all_stat_data %>% filter(lift_recall > 1.5)
+
+lift2 %>% summarize(n_distinct(dataset)) %>% nrow()
+```
+
+Для каждого типа рака количество и доля датасетов с приростом полноты больше 1.5
+
+```{r}
+lift2 %>% 
+  group_by(cancer_type) %>% 
+  summarize(n_good = n_distinct(dataset)) %>% 
+  inner_join (
+    all_stat_data %>% 
+      group_by(cancer_type) %>%    
+      summarize(n_all = n_distinct(dataset))) %>%
+  mutate(perc = n_good / n_all * 100) %>% 
+  arrange(n_good)
+```
+
+Конфигурация датасетов с приростом полноты больше 1.5
+
+```{r}
+lift2 %>% group_by(agg_level) %>% summarize(n_good = n_distinct(dataset)) %>% 
+  arrange(n_good)
+
+lift2 %>% group_by(labeling) %>% summarize(n_good = n_distinct(dataset)) %>% 
+  arrange(n_good)
+
+lift2 %>% group_by(labeling, agg_level) %>% summarize(n_good = n_distinct(dataset)) %>% 
+  arrange(n_good)
+
+```
+
+Средний прирост полноты по всем датасетам для каждого типа рака, где для каждого датасета выбран порог с максимальным приростом полноты
+
+```{r}
+med_recall_data <- all_stat_data %>% 
+  group_by(dataset) %>%
+  filter(lift_recall == max(lift_recall)) %>% 
+  filter(precision == max(precision)) %>%
+  group_by(cancer_type) %>%
+  summarize(med_lift_recall = median(lift_recall),
+            q1_lift_recall = quantile(lift_recall, 0.25),
+            q3_lift_recall = quantile(lift_recall, 0.75)) 
+
+med_recall_data  %>%  arrange(med_lift_recall)
+```
+
+Лучшие модели для каждого типа рака по приросту полноты
+
+```{r}
+best_for_cancer_type <- all_stat_data %>% 
+  group_by(cancer_type) %>% 
+  filter(lift_recall == max(lift_recall)) %>% 
+  filter(precision == max(precision))
+
+best_models <- all_stat_data[all_stat_data$dataset %in% best_for_cancer_type$dataset,]
+
+g4 <- ggplot(best_models, aes(x=quantile,
+                        y=lift_recall, 
+                        colour=cancer_type, 
+                        group=cancer_type))+
+  geom_line() +
+  geom_point() +
+  xlab("Probability quantile") +
+  ylab("Lift of recall") +
+  scale_color_discrete(name="Cancer type")
+
+g4
+```
+
+Статистики по лучшим моделям
+
+```{r}
+best_models %>% 
+  group_by(cancer_type) %>% 
+  summarize(min(lift_recall), max(lift_recall))
+
+best_models %>% 
+  filter(lift_recall > 1.5) %>% 
+  group_by(cancer_type) %>% 
+  summarize(n_dat = n(), min_recall = min(lift_recall), max_recall = max(lift_recall)) %>%
+  arrange(n_dat)
+```
+
+Статистики по датесетам лучшим для каждого типа рака (вместе с AUC)
+
+```{r}
+best_models %>% 
+  filter(lift_recall == max(lift_recall)) %>%
+  select(cancer_type, agg_level, labeling, quantile, med_recall, lift_recall) %>%
+  left_join(all_auc_data %>% select(dataset, test_auc), by = "dataset")
+
+```
+
+
+
+
+```{r save results calculation}
+save_results = TRUE
+if (save_results == TRUE){
+  save(all_stat_data, file=paste(save_results_folder, "all_stat_data_final.RData", sep=""))
+  save(all_var_imp_data, file=paste(save_results_folder, "all_var_imp_data_final.RData", sep=""))
+  save(all_auc_data, file=paste(save_results_folder, "all_auc_data_final.RData", sep=""))
+}
+```
+
+
+
+
+
+
+
+```{r graphs}
+library(ggpubr)
+ggarrange(g1, g3, g4, g2,  
+          labels = c("A", "B", "C", "D"),
+          ncol = 2, nrow = 2)
+
+save(gagg, file=paste(save_results_folder, "gagg.RData", sep=""))
+```
+
+
+
+```{r}
+save_results_folder <- c( "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl\\new\\output_report\\", "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\q\\output_report\\", "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl_q\\new\\output_report\\")
+
+model <- c("quadruplex-based model", "stem-loops and quadruplex based model", "stem-loops based model")
+
+names_m <- c("q", "sl_q", "sl")
+
+folder <- save_results_folder[1]
+load(paste0(folder, "gagg.RData"))
+g1 <- gagg
+
+folder <- save_results_folder[2]
+load(paste0(folder, "gagg.RData"))
+g2 <- gagg
+
+folder <- save_results_folder[3]
+load(paste0(folder, "gagg.RData"))
+g3 <- gagg
+
+ggarrange(g1, g2, g3, 
+          labels = c("A", "B", "C"),
+          ncol = 2, nrow = 2)
+```

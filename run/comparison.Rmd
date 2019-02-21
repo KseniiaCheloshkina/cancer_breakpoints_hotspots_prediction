@@ -1,0 +1,244 @@
+---
+title: "models comparison"
+author: "Cheloshkina Kseniia"
+date: '13 октября 2018 г '
+output: html_document
+---
+
+## Load all data
+
+```{r load models results}
+library(reshape2)
+library(ggplot2)
+library(dplyr)
+
+models_path <- list()
+models_names <- list()
+
+
+models_names[1] <- "stemloops and quadruplexes model"
+models_path[1] <-"E://Учеба//Диплом//Diploma//scripts//repo//data//results//sl_q//output_report//"
+
+models_names[2] <- "quadruplexes model"
+models_path[2] <-"E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\q\\output_report//"
+
+models_names[3] <- "stemloops model"
+models_path[3] <-"E://Учеба//Диплом//Diploma//scripts//repo//data//results//sl//output_report//"
+
+
+file_nm <- c("all_auc_data_final.RData", "all_stat_data_final.RData", "all_var_imp_data_final.RData")
+
+full_auc_data <- data.frame(matrix(ncol = 25, nrow = 0))
+x <- c("dataset", "q1_test_auc", "q3_test_auc", "per5_test_auc", "sd_test_auc", "test_auc", "test_auc_mean", "n_auc", "train_auc", "n1", "n0", "sd_ci_w", "q1", "q2", "sd_ci_0", "sd_ci_1", "se_w", "se_ci_0", "se_ci_1", "flg_sign_sd", "flg_sign_se", "agg_level", "cancer_type", "labeling", "model")
+colnames(full_auc_data) <- x
+
+
+full_stat_data <- data.frame(matrix(ncol = 22, nrow = 0))
+x <- c("dataset", "quantile", "med_recall", "n1", "n0", "n", "pred_pos", "tp", "fp", "pred_neg", "fn", "fdr", "tn", "spec", "precision", "rand_conv", "lift", "agg_level", "cancer_type", "labeling", "lift_recall", "model")
+colnames(full_stat_data) <- x
+
+
+full_var_imp_data <- data.frame(matrix(ncol = 8, nrow = 0))
+x <- c("dataset", "var", "med_imp", "agg_level", "cancer_type", "labeling","variable", "model")
+colnames(full_var_imp_data) <- x
+
+
+for (i in seq(1, length(models_path))){
+  load(paste0(models_path[[i]], "all_auc_data_final.RData"))
+  all_auc_data <- as.data.frame(all_auc_data)
+  all_auc_data$model <- models_names[[i]]
+  full_auc_data <- rbind(full_auc_data, all_auc_data)
+
+  load(paste0(models_path[[i]], "all_stat_data_final.RData"))
+  all_stat_data <- as.data.frame(all_stat_data)
+  all_stat_data$model <- models_names[[i]]
+  full_stat_data <- rbind(full_stat_data, all_stat_data)
+
+  load(paste0(models_path[[i]], "all_var_imp_data_final.RData"))
+  all_var_imp_data <- as.data.frame(all_var_imp_data)
+  all_var_imp_data$model <- models_names[[i]]
+  full_var_imp_data <- rbind(full_var_imp_data, all_var_imp_data)
+}
+  
+```
+
+### RECALL
+
+Распределение медианного покрытия для всех квантилей по всем моделям для всех датасетов по типам рака.
+
+```{r}
+full_stat_data$new_model[full_stat_data$model == "quadruplexes model"] <- "quadruplexes"
+full_stat_data$new_model[full_stat_data$model == "stemloops model"] <- "stem-loops"
+full_stat_data$new_model[full_stat_data$model ==  "stemloops and quadruplexes model"] <-  "stem-loops and quadruplexes"
+
+full_stat_data_plot <- full_stat_data[full_stat_data$quantile %in% c("0.1", "0.2", "0.3"), c("cancer_type", "quantile", "new_model", "med_recall")]
+
+g1 <- ggplot(full_stat_data_plot,
+       aes(x=cancer_type, y=med_recall, fill=new_model)) +
+  facet_wrap(~as.character(quantile), scales = "free") +
+  coord_flip() +
+  geom_boxplot() +
+  xlab("Cancer type") +
+  ylab("Median recall") +
+  theme(legend.position = "bottom")+
+  scale_fill_discrete(name="Model type")
+g1
+
+full_stat_data_plot <- full_stat_data[full_stat_data$quantile %in% c("0.4", "0.5"), c("cancer_type", "quantile", "new_model", "med_recall")]
+
+g2 <- ggplot(full_stat_data_plot,
+       aes(x=cancer_type, y=med_recall, fill=new_model)) +
+  facet_wrap(~as.character(quantile), scales = "free") +
+  coord_flip() +
+  geom_boxplot() +
+  xlab("Cancer type") +
+  ylab("Median recall") +
+  theme(legend.position = "bottom")+
+  scale_fill_discrete(name="Model type")
+g2
+```
+
+
+Лучшие модели по приросту покрытия для каждого типа моделей по типам рака.
+
+```{r best models}
+full_stat_data$lift_recall <- full_stat_data$med_recall / full_stat_data$quantile
+
+best_for_cancer_type <- full_stat_data %>% 
+  group_by(cancer_type, new_model) %>% 
+  filter(lift_recall == max(lift_recall)) %>% 
+  filter(precision == max(precision)) %>% 
+  select(dataset, new_model, cancer_type)
+
+best_models <- full_stat_data %>% 
+  inner_join(best_for_cancer_type, by = c("dataset", "new_model"))
+
+
+g3 <- ggplot(best_models, 
+       aes(x=quantile, y=lift_recall, colour=new_model)) +
+  facet_wrap( ~ cancer_type.x, scales="free") + 
+  geom_line() +
+  xlab("Probability quantile") +
+  ylab("Lift of recall") +
+  # theme(legend.position=c(0.88, 0.11), 
+  #       legend.key.height=unit(1.6, "line"))+
+  theme(legend.position = "bottom")+
+  scale_colour_discrete(name="Model type")
+g3
+
+```
+```{r}
+newd <- dcast(cancer_type.x + quantile ~ new_model, data=best_models, value.var = "lift_recall")
+a <- apply(newd, 1, function(x) which.max(x[3:5]))
+names_m <- c("quadruplexes", "stem-loops", "quadruplexes and stem-loops")
+newd$best_model <- names_m[a]
+newd %>% group_by(cancer_type.x, best_model) %>%
+  summarize(n()) 
+```
+
+Средний прирост полноты по всем датасетам для каждого типа рака, где для каждого датасета выбран порог с максимальным приростом полноты
+
+```{r}
+med_recall_data <- full_stat_data %>% 
+  group_by(dataset, new_model) %>%
+  filter(lift_recall == max(lift_recall)) %>% 
+  filter(precision == max(precision)) %>%
+  group_by(cancer_type, new_model) %>%
+  summarize(med_lift_recall = median(lift_recall)) 
+med_recall_data$cancer_type[med_recall_data$cancer_type == "pancreatic"] <- "pancreas"
+g4 <- ggplot(med_recall_data,
+       aes(x=cancer_type, y=med_lift_recall, fill=new_model)) +
+  geom_bar(stat="identity", position="dodge") + 
+  theme(legend.position = "bottom") + 
+  xlab("Cancer type") +
+  ylab("Median lift of recall")+
+  scale_fill_discrete(name="Model type")
+g4
+
+```
+
+### AUC
+
+Медианный AUC по датасетам для каждого типа рака и модели.
+
+
+```{r AUC}
+full_auc_data$new_model[full_auc_data$model == "quadruplexes model"] <- "quadruplexes"
+full_auc_data$new_model[full_auc_data$model == "stemloops model"] <- "stem-loops"
+full_auc_data$new_model[full_auc_data$model ==  "stemloops and quadruplexes model"] <-  "stem-loops and quadruplexes"
+
+g5 <- ggplot(full_auc_data, 
+       aes(x=reorder(cancer_type,test_auc, FUN=median), y=test_auc, fill=new_model)) +
+  geom_boxplot() +
+  coord_flip() +
+  xlab("Cancer type") + 
+  ylab("Median test AUC") +
+  theme(legend.position = "bottom")+
+  scale_fill_discrete(name="Model type")
+
+g5
+
+```
+
+Медианный AUC
+
+```{r}
+
+med_auc <- full_auc_data %>% 
+  group_by(cancer_type, new_model) %>% 
+  summarize(
+    med_test_auc = median(test_auc))
+med_auc$cancer_type[med_auc$cancer_type == "pancreatic"] <- "pancreas"
+
+g6 <- ggplot(med_auc,
+       aes(x=cancer_type, y=med_test_auc, fill=new_model)) +
+  geom_bar(stat="identity", position="dodge") + 
+  theme(legend.position = "bottom") + 
+  xlab("Cancer type") +
+  ylab("Median test ROC AUC")+
+  scale_fill_discrete(name="Model type")
+
+g6
+```
+
+
+```{r graphs_1}
+library(ggpubr)
+ggarrange(g6, g4, g3,  
+          labels = c("A", "B", "C"),
+          ncol = 1, nrow = 3)
+```
+
+
+```{r graphs_2}
+ggarrange(g5, g1, g2,  
+          labels = c("A", "B", "C"),
+          ncol = 1, nrow = 3)
+```
+
+
+```{r save_table}
+auc_save <- full_auc_data %>% 
+  select(model, dataset, cancer_type, labeling, agg_level,
+         q1_test_auc, q3_test_auc, per5_test_auc, sd_test_auc, test_auc, test_auc_mean,
+         train_auc,
+         flg_sign_sd, flg_sign_se)
+
+best_lift<- full_stat_data %>% 
+  group_by(dataset, model) %>% 
+  filter(lift_recall == max(lift_recall)) %>% 
+  filter(precision == max(precision)) %>% 
+  select(model, dataset, quantile, med_recall, lift_recall,
+         tp, fp, tn, fn)
+
+best_lift <- best_lift %>% 
+  group_by(dataset, model) %>% 
+  mutate(rank = dense_rank(desc(quantile))) %>%
+  filter(rank == 1)
+
+all_data <- auc_save %>% 
+  inner_join(best_lift, by = c("dataset", "model"))
+
+write.csv(all_data, file="E:\\Учеба\\Диплом\\Diploma\\dataset_res.csv")
+
+```
