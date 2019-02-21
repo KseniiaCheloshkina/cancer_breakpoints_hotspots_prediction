@@ -16,6 +16,7 @@ load_region <- function(region_path){
   region_df <- read.table(region_path)
   region_df <- region_df[, 1:3]
   names(region_df) <- c("chr", "start", "end")
+  region_df['chr'] <- apply(region_df, 1, function(x){as.character(x["chr"])})
   region_df['chr'] <- apply(region_df, MARGIN = 1, 
                        FUN = function(x) {gsub(x = x["chr"], 
                                                pattern = "chr", 
@@ -35,14 +36,20 @@ count_bkpt <- function(region_df, bkpt_df, region_name){
   merged_data <- data.frame()
   
   for (chr in chr_list){
-    print(chr)
     bkpt_df_part <- bkpt_df[chr, on="chr"]
     region_df_part <- region_df[chr, on="chr"]
     
     
-    joined_df <- region_df_part[bkpt_df_part, 
-                                on=.(start <= chr_bkpt_beg_s, end >= chr_bkpt_beg_e),
+    joined_df_s <- region_df_part[bkpt_df_part, 
+                                on=.(start <= chr_bkpt_beg_s, end >= chr_bkpt_beg_s),
                                 allow.cartesian=TRUE]
+    joined_df_s$chr_bkpt_beg_e <- NULL
+    
+    joined_df_e <- region_df_part[bkpt_df_part, 
+                                on=.(start <= chr_bkpt_beg_e, end >= chr_bkpt_beg_e),
+                                allow.cartesian=TRUE]
+    joined_df_e$chr_bkpt_beg_s <- NULL
+    joined_df <- rbind(joined_df_s, joined_df_e)
     # unique hits
     joined_df <- unique(joined_df)
     
@@ -60,6 +67,52 @@ count_bkpt <- function(region_df, bkpt_df, region_name){
   return(merged_data)
   
 }
+
+# function to calculate number of genes inside hotspots 
+count_hsp <- function(region_df, bkpt_df){
+  
+  chr_list <- unique(bkpt_df[, chr])
+  merged_data <- data.frame()
+  
+  for (chr in chr_list){
+    bkpt_df_part <- bkpt_df[chr, on="chr"]
+    region_df_part <- region_df[chr, on="chr"]
+    
+    
+    joined_df_s <- region_df_part[bkpt_df_part, 
+                                on=.(start >= chr_bkpt_beg_s, start <= chr_bkpt_beg_e),
+                                allow.cartesian=TRUE] %>%
+      select(from, chr, to, hsp_nm)
+
+    joined_df_e <- region_df_part[bkpt_df_part, 
+                                on=.(end >= chr_bkpt_beg_s, end <= chr_bkpt_beg_e),
+                                allow.cartesian=TRUE] %>%
+      select(from, chr, to, hsp_nm)
+    
+    joined_df <- rbind(joined_df_s, joined_df_e)
+    # unique hits
+    joined_df <- unique(joined_df)
+    
+    final_df <- joined_df %>%
+      filter(!is.na(chr)) %>%
+      group_by(chr) %>%
+      summarize(n_hsp = n())
+    
+    null_df <- data.frame("chr" = chr, "n_hsp" = 0, stringsAsFactors = FALSE)
+    
+    if (nrow(final_df) == 0){
+      final_df <- null_df
+    } 
+    final_df$n_hsp_chr <- nrow(bkpt_df_part)
+    merged_data <- rbind(merged_data, data.frame(final_df))
+    
+  }
+  
+  return(merged_data)
+  
+}
+
+
 
 
 ############ LOAD BREAKPOINTS DATA
@@ -248,4 +301,157 @@ g3
 
 ggarrange(g1, g3, g2,  
           labels = c("A", "B", "C"),
-          ncol = 2, nrow = 2)
+          ncol = 2, nrow = 2, hjust = -3, vjust = 1)
+
+
+
+
+###### HOTSPOTS
+
+## LOAD 10Kb HOTSPOTS DATA
+
+cancer_bkpt_path <- "../data/preprocessed/breakpoints/structural_mutation_final_10_kb.csv"
+bkpt <- read.csv(cancer_bkpt_path)
+hsp_names <- names(bkpt)[grep("hotspot", names(bkpt))]
+needed_names <- c(c("chr", "window", "from", "to"), hsp_names)
+new_bkpt <- bkpt[needed_names]
+rm(bkpt)
+gc()
+
+new_bkpt["chr"] <- apply(new_bkpt, 1, function(x){as.character(x["chr"])})
+new_bkpt["chr_bkpt_beg_s"] <- new_bkpt["from"]
+new_bkpt["chr_bkpt_beg_e"] <- new_bkpt["to"]
+
+
+## READ WHOLE GENES DATA AND CALCUCATE INTERSECTION STATS
+labels_path <- "../data/adhoc/regions/input/"
+labels <- list.files(labels_path)
+labels <- labels[!labels %in% c("promoters020219", "downstream020219")]
+
+all_res <- data.frame()
+
+for (label in labels){
+  
+  # load region
+  path <- paste0(labels_path, label)
+  region_df <- load_region(path)
+  clean_label <- gsub("020219", "", label)
+  print(clean_label)
+  
+  for (hsp_nm in hsp_names){
+    print(hsp_nm)
+    # select cols
+    needed_names <- c("chr", "from", "to", "chr_bkpt_beg_e", "chr_bkpt_beg_s")
+    bkpt_df <- new_bkpt[c(needed_names, hsp_nm)]
+    # filter hotspots
+    bkpt_df <- bkpt_df[bkpt_df[hsp_nm] == 1, ]
+    n_bkpt_df <- nrow(bkpt_df)
+    setDT(bkpt_df)
+    # count
+    df_res <- count_hsp(region_df, bkpt_df)
+    df_res$hsp_type <- hsp_nm
+    df_res$n_total <- n_bkpt_df
+    df_res$label <- clean_label
+    
+    all_res <- rbind(all_res, data.frame(df_res))
+  }
+  
+}
+
+
+write.csv(all_res, file = "../data/adhoc/regions/results_regions.csv", row.names = FALSE)
+
+
+
+
+
+## STATS AND PLOTS
+
+# GENES
+
+genes_results <- all_res[all_res$label == "WholeGenes", ]
+
+cancer_pattern <- "^[a-z]*"
+labeling_pattern <- "([0-9]?[.]?[0-9]*)$"
+
+m <- regexpr(cancer_pattern, genes_results$hsp_type)
+genes_results$cancer_type <- regmatches(genes_results$hsp_type, m)
+m <- regexpr(labeling_pattern, genes_results$hsp_type)
+genes_results$labeling_type <- regmatches(genes_results$hsp_type, m) 
+
+genes_results$perc_chr <- genes_results$n_hsp / genes_results$n_hsp_chr
+genes_results$perc_total <- genes_results$n_hsp / genes_results$n_total
+
+genes_results$label <- NULL
+
+# by cancer and labeling type
+genes_results_c_l <- genes_results %>% 
+  group_by(cancer_type, labeling_type, n_total) %>% 
+  summarize(n_hsp = sum(n_hsp)) %>%
+  mutate(perc = n_hsp/n_total)
+
+g_c_l <- ggplot(genes_results_c_l, aes(cancer_type, labeling_type)) + 
+  geom_tile(aes(fill = perc), colour = "white") + 
+  scale_fill_gradient(low = "white", high = "steelblue", name="Percentage") + 
+  xlab("Cancer type") + 
+  ylab("Labeling type")
+
+g_c_l
+
+
+# by chr and labeling type
+genes_results_chr_l <- genes_results %>% 
+  group_by(chr, labeling_type, n_total) %>% 
+  summarize(n_hsp = sum(n_hsp)) %>%
+  mutate(perc = n_hsp/n_total)
+
+g_chr_l <- ggplot(genes_results_chr_l, aes(chr, labeling_type)) + 
+  geom_tile(aes(fill = perc), colour = "white") + 
+  scale_fill_gradient(low = "white", high = "steelblue", name="Percentage") + 
+  xlab("Chromosome") + 
+  ylab("Labeling type")
+
+g_chr_l
+
+
+# by cancer and chromosome for each labeling type
+all_g <- ggplot(genes_results, 
+                aes(x = labeling_type, y = perc_total, fill = chr)) + 
+  geom_bar(stat = 'identity', position = 'stack') + 
+  facet_grid(~ cancer_type) +
+  xlab("Labeling type") + 
+  ylab("Percentage") + 
+  scale_fill_discrete(name="Chromosome")+ 
+  theme(axis.text.x = element_text(size=10, angle=45))
+all_g  
+
+ggarrange(all_g, 
+          ggarrange(g_c_l, g_chr_l, labels = c("B", "C"), ncol = 2, widths = 4:3),
+          nrow = 2, labels = "A" )
+
+## other regions
+
+ 
+m <- regexpr(cancer_pattern, all_res$hsp_type)
+all_res$cancer_type <- regmatches(all_res$hsp_type, m)
+m <- regexpr(labeling_pattern, all_res$hsp_type)
+all_res$labeling_type <- regmatches(all_res$hsp_type, m) 
+
+all_res$perc_chr <- all_res$n_hsp / all_res$n_hsp_chr
+all_res$perc_total <- all_res$n_hsp / all_res$n_total
+
+# by cancer_type and region (point - chromosome in dataset)
+g1 <- ggplot(all_res, aes(x=cancer_type, y=perc_total, fill=label))+
+  geom_boxplot()+
+  xlab("Cancer type")+
+  scale_fill_discrete(name="Region")+
+  ylab("Percentage of \n intersected hotspots from \n total number of hotspots")
+
+# by chromosome and region (point -  cancer_type in dataset)
+g2 <- ggplot(all_res, aes(x=chr, y=perc_total, fill=label))+
+  geom_boxplot()+
+  xlab("Chromosome")+
+  scale_fill_discrete(name="Region")+
+  ylab("Percentage of \n intersected hotspots from \n total number of hotspots")
+
+ggarrange(g1, g2, labels = c("A", "B"), nrow = 2)
