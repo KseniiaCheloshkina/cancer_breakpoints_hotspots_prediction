@@ -259,14 +259,23 @@ gg_chr_region_df <- melt(chr_region_df[ratio_cols], id.vars = "chr",
 gg_chr_region_df$region <- gsub(pattern = "ratio_n_bkpt_intersected_",
                                    replacement = "", x = gg_chr_region_df$region)
 
+
+
+gg_chr_region_df$chr <- as.character(gg_chr_region_df$chr)
+chr_order <- c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", 
+               "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+               "21", "22", "X")
+
 g2 <- ggplot(gg_chr_region_df,
              aes(x=chr, y=ratio, fill=region)) +
   geom_bar(stat="identity", position="dodge") + 
   theme(legend.position = "bottom") + 
   xlab("Chromosome")  +
   ylab("Ratio of breakpoints in the \n region  from total number \n of overlaps")+
-  scale_fill_discrete(name="Region")
+  scale_fill_discrete(name="Region")+
+  scale_x_discrete(limits=chr_order)
 g2
+
 
 
 # by region
@@ -365,7 +374,11 @@ write.csv(all_res, file = "../data/adhoc/regions/results_regions.csv", row.names
 
 
 
+
 ## STATS AND PLOTS
+
+
+all_res <- read.csv("../data/adhoc/regions/results_regions.csv")
 
 # GENES
 
@@ -405,11 +418,17 @@ genes_results_chr_l <- genes_results %>%
   summarize(n_hsp = sum(n_hsp)) %>%
   mutate(perc = n_hsp/n_total)
 
+genes_results_chr_l$chr <- as.character(genes_results_chr_l$chr)
+chr_order <- c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", 
+               "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+               "21", "22", "X")
+
 g_chr_l <- ggplot(genes_results_chr_l, aes(chr, labeling_type)) + 
   geom_tile(aes(fill = perc), colour = "white") + 
   scale_fill_gradient(low = "white", high = "steelblue", name="Percentage") + 
   xlab("Chromosome") + 
-  ylab("Labeling type")
+  ylab("Labeling type")+
+  scale_x_discrete(limits=chr_order)
 
 g_chr_l
 
@@ -420,14 +439,16 @@ all_g <- ggplot(genes_results,
   geom_bar(stat = 'identity', position = 'stack') + 
   facet_grid(~ cancer_type) +
   xlab("Labeling type") + 
-  ylab("Percentage") + 
-  scale_fill_discrete(name="Chromosome")+ 
-  theme(axis.text.x = element_text(size=10, angle=45))
+  ylab("Percentage") +theme(axis.text.x = element_text(size=10, angle=45)) +
+  scale_fill_discrete(name="Chromosome", labels = chr_order)
+
 all_g  
 
+# 
+  
 ggarrange(all_g, 
           ggarrange(g_c_l, g_chr_l, labels = c("B", "C"), ncol = 2, widths = 4:3),
-          nrow = 2, labels = "A" )
+          nrow = 2, labels = "A" , heights = 4:3)
 
 ## other regions
 
@@ -447,11 +468,14 @@ g1 <- ggplot(all_res, aes(x=cancer_type, y=perc_total, fill=label))+
   scale_fill_discrete(name="Region")+
   ylab("Percentage of \n intersected hotspots from \n total number of hotspots")
 
+all_res$chr <- as.character(all_res$chr)
+
 # by chromosome and region (point -  cancer_type in dataset)
 g2 <- ggplot(all_res, aes(x=chr, y=perc_total, fill=label))+
   geom_boxplot()+
   xlab("Chromosome")+
   scale_fill_discrete(name="Region")+
-  ylab("Percentage of \n intersected hotspots from \n total number of hotspots")
+  ylab("Percentage of \n intersected hotspots from \n total number of hotspots")+
+  scale_x_discrete(limits=chr_order)
 
 ggarrange(g1, g2, labels = c("A", "B"), nrow = 2)

@@ -112,18 +112,21 @@ best_for_cancer_type <- full_stat_data %>%
 
 best_models <- full_stat_data %>% 
   inner_join(best_for_cancer_type, by = c("dataset", "new_model"))
+```
 
-
+```{r}
 g3 <- ggplot(best_models, 
        aes(x=quantile, y=lift_recall, colour=new_model)) +
   facet_wrap( ~ cancer_type.x, scales="free") + 
-  geom_line() +
+  geom_line(size=1) +
   xlab("Probability quantile") +
   ylab("Lift of recall") +
   # theme(legend.position=c(0.88, 0.11), 
   #       legend.key.height=unit(1.6, "line"))+
   theme(legend.position = "bottom")+
-  scale_colour_discrete(name="Model type")
+  scale_colour_discrete(name="Model type") + 
+  theme(axis.text.y = element_text(size = 7)) + 
+  theme(axis.text.x = element_text(size = 7))
 g3
 
 ```
