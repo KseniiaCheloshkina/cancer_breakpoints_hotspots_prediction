@@ -1,5 +1,5 @@
 # Cancer breakpoints hotspots prediction
-This project contains source code for the paper of [Cheloshkina K., Poptsova M. "Tissue-specific impact of stem-loops and quadruplexes on cancer breakpoints formation"] (https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5653-x).
+This project contains source code for the paper of [Cheloshkina K., Poptsova M. "Tissue-specific impact of stem-loops and quadruplexes on cancer breakpoints formation"](https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5653-x).
 The goal of the study is to estimate prediction power of stem-loops and quadruplexes for prediction of cancer breakpoints hotspots.
 
 #### BACKGROUND:
