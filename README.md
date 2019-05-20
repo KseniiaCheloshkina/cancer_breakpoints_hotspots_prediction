@@ -13,4 +13,4 @@ We performed analysis of 487,425 breakpoints from 2234 samples covering 10 cance
 
 #### CONCLUSION:
 Despite the heterogeneity in breakpoint hotspots' distribution across different cancer types, our results demonstrate an association between cancer breakpoint hotspots and stem-loops and quadruplexes. Approximately for half of the cancer types stem-loops are the most influential factors while for the others these are quadruplexes. This fact reflects the differences in regulatory potential of stem-loops and quadruplexes at the tissue-specific level, which yet to be discovered at the genome-wide scale. The performed analysis demonstrates that influence of stem-loops and quadruplexes on breakpoint hotspots formation is tissue-specific.
-![Results](Figure_5.png)
+![Results](Figure_5.png "Comparison of different models' performance by cancer type")
