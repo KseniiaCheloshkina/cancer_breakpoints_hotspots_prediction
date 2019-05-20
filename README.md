@@ -2,7 +2,7 @@
 This project contains source code for the paper of Cheloshkina K., Poptsova M. "Tissue-specific impact of stem-loops and quadruplexes on cancer breakpoints formation" (https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5653-x).
 The goal of the study is to estimate prediction power of stem-loops and quadruplexes for prediction of cancer breakpoints hotspots.
 
-### BACKGROUND:
+#### BACKGROUND:
 Chromosomal rearrangements are the typical phenomena in cancer genomes causing gene disruptions and fusions, corruption of regulatory elements, damage to chromosome integrity. Among the factors contributing to genomic instability are non-B DNA structures with stem-loops and quadruplexes being the most prevalent. We aimed at investigating the impact of specifically these two classes of non-B DNA structures on cancer breakpoint hotspots using machine learning approach.
 
 #### METHODS:
