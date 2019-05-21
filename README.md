@@ -35,5 +35,6 @@ Structure of repository:
    - raw breakpoints: source data from ICGC (International Cancer Genome Consortium) with some intermediate data
    - secondary: raw data of secondary structures
    - preprocessed: preprocessed data in .csv format (by cancer type and aggregation level)
-   - data for model: preprocessed data in .R format (one file for each dataset)
+   - data for model: preprocessed data in .R format (one file for each dataset) - input for modeling
+   - adhoc: data for ad-hoc analysis
 - requirements.txt: list of all packages needed for project
