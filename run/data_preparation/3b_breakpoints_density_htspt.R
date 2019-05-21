@@ -4,7 +4,7 @@ library(reshape2)
 
 ## ПЛОТНОСТЬ РАЗРЫВОВ
 
-input_folder<-"E:/Учеба/Диплом/Diploma/data/structural mutation/3_breakpoints"
+input_folder<-"../data/raw breakpoints/structural mutation/3_breakpoints"
 setwd(input_folder)
 
 cancer_types<-c("blood_all_data.csv","bone_all_data.csv","brain_all_data.csv", "breast_all_data.csv" ,"liver_all_data.csv","ovary_all_data.csv","pancreatic_all_data.csv",
@@ -105,7 +105,7 @@ library(ggplot2)
 library(corrplot)
 library(reshape2)
 
-all_data<-read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\3_breakpoints\\all_cancers.csv")
+all_data<-read.csv("..\\data\\raw breakpoints\\structural mutation\\3_breakpoints\\all_cancers.csv")
 all_data$X<-NULL
 
 
@@ -149,7 +149,7 @@ g1 <- ggplot(df_plot, aes(x=cancer, y=variable, fill=value))+
   scale_fill_continuous(low = "white", high = "steelblue", name="Correlation \n")
 g1
 
-save(g1, file = "E:\\Учеба\\Диплом\\Diploma\\scripts\\data for plot\\1_B.RData")
+save(g1, file = "..\\data\\1_B.RData")
 
 
 
@@ -219,7 +219,7 @@ for (i in 1:length(dens)){
 
 
 write.csv(all_data,
-          file="E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_2.csv")
+          file="..\\data\\preprocessed\\breakpoints\\structural_mutation_final_10_kb.csv")
 
 
 
@@ -227,18 +227,18 @@ write.csv(all_data,
 ## HOTSPOTS EDA
 
 # отрисовать линейный график плотности
-data<-read.csv("E:/Учеба/Диплом/Diploma/data/structural mutation/structural_mutation_final_10_kb.csv")
+data<-read.csv("../data/preprocessed/breakpoints/structural_mutation_final_10_kb.csv")
 library(ggplot2)
 
 g1 <- ggplot(data[data$chr=="17",],aes(x=from/1000000,y=overall_density))+
   geom_line()+
   xlab("Start position of window")+
   ylab("Density")
-save(g1, file="E:\\Учеба\\Диплом\\Diploma\\scripts\\data for plot\\1_C.RData")
+save(g1, file="..\\data\\1_C.RData")
 
 
 
-new_data<-read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_10_kb.csv")
+new_data<-read.csv("..\\data\\preprocessed\\breakpoints\\structural_mutation_final_10_kb.csv")
 
 htspt<-grep("hotspot",names(new_data))
 
@@ -325,7 +325,7 @@ g2 <- ggplot(chr_count_h[chr_count_h$labeling=="0.1",],aes(x=cancer,y=chr,group=
                                size=guide_legend(title="Percentage"))
   #scale_colour_gradient(low = "white", high = "black")+
   # ggtitle("Number of breakpoint hotspots by chromosome and type of cancer\n1 option (0.1)")
-save(g2, file = "E:\\Учеба\\Диплом\\Diploma\\scripts\\data for plot\\1_A.RData")
+save(g2, file = "..\\data\\1_A.RData")
 
 ggplot(chr_count_h[chr_count_h$labeling=="0.05",],aes(x=cancer,y=chr,group=1))+
   geom_point(data=chr_count_h[chr_count_h$labeling=="0.05",],aes(x=cancer, y=chr,size = norm_value, colour = norm_value))+

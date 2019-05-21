@@ -9,7 +9,7 @@ library(reshape2)
 
 # боксплот по хромосомам положения структур по типам 
 # (смотрим, такие же ли отклонения от серединки)
-setwd("E://Учеба//Диплом//Diploma//data//secondary//QUADRUPLEXES//")
+setwd("..//data//secondary//QUADRUPLEXES//")
 quadr<-read.table("all_chr_q.bed")
 quadr$str_mb<-floor(quadr$V2/1000000)
 small_dat<-quadr
@@ -64,12 +64,12 @@ ggplot(data_stat_p,aes(x=chr,y=normalized_diff,fill=chr))+
 
 ## 2
 # отрисовать линейный график плотности
-data<-read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_10_kb.csv")
+data<-read.csv("..\\data\\preprocessed\\breakpoints\\structural_mutation_final_10_kb.csv")
 data<-data[,c("chr","from","overall_density","density_breast","density_pancreatic")]
 data$chr<-as.character(data$chr)
 names(data)[3:5]<-c("breakpoints (general)","breakpoints (breast)","breakpoints (pancreatic)")
 
-sec_str<-read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\QUADRUPLEXES\\quadr_cov.csv")
+sec_str<-read.csv("..\\data\\preprocessed\\quadruplexes\\quadr_cov.csv")
 sec_str<-sec_str[,c("chr","from","coverage_q")]
 sec_str$chr<-as.character(sec_str$chr)
 sec_str$chr<-gsub("chr","",sec_str$chr)
@@ -99,9 +99,7 @@ library(reshape)
 
 ### CORRELATIONS
 
-
-# mutations <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_10_kb.csv")
-mutations <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_1_mb.csv")
+mutations <- read.csv("..\\data\\preprocessed\\breakpoints\\structural_mutation_final_1_mb.csv")
 names(mutations)[which(names(mutations)=="new_wind")]<-"window"
 
 mutations <- mutations[, c("chr", "window", "from", "density_blood", "density_bone",
@@ -112,8 +110,7 @@ mutations <- mutations[, c("chr", "window", "from", "density_blood", "density_bo
 mutations$chr <- as.character(mutations$chr)
 
 
-# sec_str <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\QUADRUPLEXES\\quadr_cov_10kb.csv")
-sec_str <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\QUADRUPLEXES\\quadr_cov_1mb.csv")
+sec_str <- read.csv("..\\data\\preprocessed\\quadruplexes\\quadr_cov_1mb.csv")
 sec_str <- sec_str[, c("chr", "from", "coverage_q")]
 sec_str$chr <- as.character(sec_str$chr)
 sec_str$chr <- gsub("chr", "", sec_str$chr)

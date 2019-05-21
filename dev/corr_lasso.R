@@ -1,4 +1,4 @@
-s_folder <- "E:\\Учеба\\Диплом\\Diploma\\data\\stemloops_mut\\data for pred\\"
+s_folder <- "..\\data\\preprocessed\\stemloops_mut\\data for pred\\"
 load(paste0(s_folder, list.files(s_folder))[151])
 new_data <- iter_data[, c("v_2", "v_3", "v_4")]
 names(new_data) <- c("coverage_15_30","coverage_16_50","coverage_sl_6_15")

@@ -7,7 +7,7 @@ library(reshape2)
 
 # Change working directory
 # current_working_dir <- dirname(rstudioapi::getActiveDocumentContext()$path)
-current_working_dir <- "E://Учеба//Диплом//Diploma//scripts//repo//dev"
+current_working_dir <- "..//dev"
 setwd(current_working_dir)
 
 ##########  FUNCTIONS

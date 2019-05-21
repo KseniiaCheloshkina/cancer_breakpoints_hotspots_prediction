@@ -5,7 +5,7 @@ library(reshape2)
 library(xlsx)
 
 ## set working folder
-current_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\adhoc\\another_cancer\\"
+current_folder <- "..\\data\\adhoc\\another_cancer\\"
 setwd(current_folder)
 
 ## load metrics for blood cancer

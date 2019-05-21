@@ -1,14 +1,14 @@
 ## Data directories
-working_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\"
+working_folder <- "..\\"
 setwd(working_folder)
 
 q_folder <- ".\\data\\data for model\\quadr_mut\\"
 s_folder <- ".\\data\\data for model\\stemloops_mut\\"
 
-res_folder <- ".\\data\\results\\test\\"
+res_folder <- ".\\data\\results\\sl\\"
 
 ## functions
-source_path <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\run\\helper_functions.R"
+source_path <- "helper_functions.R"
 source(source_path)
 
 ## libraries

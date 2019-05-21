@@ -12,7 +12,7 @@ new_wind<-1000000
 
 ##  BREAKPOINTS
 
-new_data<-read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_10_Kb.csv")
+new_data<-read.csv("..\\data\\preprocessed\\breakpoints\\structural_mutation_final_10_Kb.csv")
 new_data$X<-NULL
 new_data<-new_data[order(new_data$chr,new_data$window),]
 new_data$new_wind<-ceiling(new_data$to/new_wind)
@@ -223,7 +223,7 @@ dataset[,grep("_0.1",names(dataset))]<-NULL
 
 
 write.csv(dataset,
-          file="E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_1_mb.csv")
+          file="..\\data\\preprocessed\\breakpoints\\structural_mutation_final_1_mb.csv")
 
 
 
@@ -251,7 +251,7 @@ write.csv(dataset,
 
 #setwd("~/STEMLOOPS")
 
-setwd("E:/Учеба/Диплом/Diploma/data/secondary/STEMLOOPS")
+setwd("../data/preprocessed/stem-loops")
 
 # read 10kb file
 sec_str_all<-read.csv("stemloops_density_10k.csv")
@@ -305,9 +305,8 @@ write.csv(new_sec_str,file="stemloops_density_1mb.csv",row.names = FALSE)
 library(ggplot2)
 library(reshape2)
 
-#setwd("E:/?????/??????/Diploma/data")
 
-mutations<-read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_100kb.csv")
+mutations<-read.csv("..\\data\\preprocessed\\breakpoints\\structural_mutation_final_100kb.csv")
 names_mut<-c(c("chr","new_wind","from","to"),names(mutations)[grep("hotspot",names(mutations))])
 mutations<-mutations[,names_mut]
 
@@ -449,10 +448,10 @@ write.csv(new_data_chr,"stemloops_mut_data_100k.csv")
 #### GOOD FORMAT FOR BASE 10 kb 
 
 # template (all windows)
-new_data<-read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_10_Kb.csv")
+new_data<-read.csv("..\\data\\preprocessed\\breakpoints\\structural_mutation_final_10_Kb.csv")
 new_data$X<-NULL
 
-setwd("E:/Учеба/Диплом/Diploma/data/secondary/QUADRUPLEXES")
+setwd("../data/preprocessed/quadruplexes")
 
 # read 10kb file
 sec_str_all<-read.csv("quadr_cov.csv")
@@ -478,7 +477,7 @@ library(reshape2)
 # aggregate
 new_wind<-1000000
 
-setwd("E:/Учеба/Диплом/Diploma/data/secondary/QUADRUPLEXES")
+setwd("../data/preprocessed/quadruplexes")
 # read 10kb file
 sec_str_all<-read.csv("quadr_cov.csv")
 

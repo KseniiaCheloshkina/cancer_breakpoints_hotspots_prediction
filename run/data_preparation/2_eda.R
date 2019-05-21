@@ -7,7 +7,7 @@ library(ggplot2)
 library(dplyr)
 
 # data
-input_folder <- "E://Учеба//Диплом//Diploma//scripts//repo//data//raw breakpoints//structural mutation//1_read//"
+input_folder <- "..//data//raw breakpoints//structural mutation//1_read//"
 setwd(input_folder)
 all_data <- read.csv("all_cancer_data.csv")
 all_data$X <- NULL
@@ -158,7 +158,7 @@ nrm <- ggplot(chr_s,aes(x=reorder(chr, norm_count),y=norm_count,
   xlab("Chromosome")+
   ylab("Normalized number of breakpoints")
 nrm
-save(nrm, file = "E:\\Учеба\\Диплом\\Diploma\\scripts\\data for plot\\1_D.RData")
+save(nrm, file = "..\\data\\1_D.RData")
 chr_s$mb<-floor(chr_s$length/1000000)
 
 # breakpoints location by chromosome
@@ -253,7 +253,7 @@ eda_trans<-function(data){
 }
 
 
-input_folder <- "E://Учеба//Диплом//Diploma//scripts//repo//data//raw breakpoints//structural mutation//1_read//"
+input_folder <- "..//data//raw breakpoints//structural mutation//1_read//"
 setwd(input_folder)
 cancer_types<-list.files()
 cancer_types<-cancer_types[grep("_all_data.csv",cancer_types)]

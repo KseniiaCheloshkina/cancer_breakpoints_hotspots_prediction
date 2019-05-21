@@ -17,13 +17,13 @@ models_names <- list()
 
 
 models_names[1] <- "stemloops and quadruplexes model"
-models_path[1] <-"E://Учеба//Диплом//Diploma//scripts//repo//data//results//sl_q//output_report//"
+models_path[1] <-"..//data//results//sl_q//output_report//"
 
 models_names[2] <- "quadruplexes model"
-models_path[2] <-"E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\q\\output_report//"
+models_path[2] <-"..\\data\\results\\q\\output_report//"
 
 models_names[3] <- "stemloops model"
-models_path[3] <-"E://Учеба//Диплом//Diploma//scripts//repo//data//results//sl//output_report//"
+models_path[3] <-"..//data//results//sl//output_report//"
 
 
 file_nm <- c("all_auc_data_final.RData", "all_stat_data_final.RData", "all_var_imp_data_final.RData")
@@ -241,7 +241,5 @@ best_lift <- best_lift %>%
 
 all_data <- auc_save %>% 
   inner_join(best_lift, by = c("dataset", "model"))
-
-write.csv(all_data, file="E:\\Учеба\\Диплом\\Diploma\\dataset_res.csv")
 
 ```

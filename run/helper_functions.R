@@ -69,7 +69,8 @@ lr_train <- function(dataset_train, predictors){
 
   #dataset_test <- predict(trans, dataset_test)
   
-  logr <- glm(fmla, data=dataset_train, family='binomial')
+  logr <- glm(fmla, data=dataset_train, family='binomial', )
+
   transformers <- list(trans, logr) 
 
   return(transformers)

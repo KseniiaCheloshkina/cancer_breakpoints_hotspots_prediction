@@ -14,9 +14,9 @@ library(stringr)
 options(tibble.print_max = 50, tibble.print_min = 50)
 
 
-# results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl\\new\\"
-results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\q\\"
-# results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl_q\\new\\"
+# results_folder <- "..\\data\\results\\sl\\"
+results_folder <- "..\\data\\results\\q\\"
+# results_folder <- "..\\data\\results\\sl_q\\"
 
 
 
@@ -27,9 +27,9 @@ model_name <- "quadruplexes model"
 
 save_results = TRUE
 
-save_results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\q\\output_report\\"
-# save_results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl_q\\new\\output_report\\"
-# save_results_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl\\new\\output_report\\"
+save_results_folder <- "..\\data\\results\\q\\output_report\\"
+# save_results_folder <- "..\\data\\results\\sl_q\\output_report\\"
+# save_results_folder <- "..\\data\\results\\sl\\output_report\\"
 setwd(results_folder)
 
 
@@ -657,7 +657,7 @@ save(gagg, file=paste(save_results_folder, "gagg.RData", sep=""))
 
 
 ```{r}
-save_results_folder <- c( "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl\\new\\output_report\\", "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\q\\output_report\\", "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\results\\sl_q\\new\\output_report\\")
+save_results_folder <- c( "..\\data\\results\\sl\\output_report\\", "..\\data\\results\\q\\output_report\\", "..\\data\\results\\sl_q\\output_report\\")
 
 model <- c("quadruplex-based model", "stem-loops and quadruplex based model", "stem-loops based model")
 

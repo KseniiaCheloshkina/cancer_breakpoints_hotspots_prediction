@@ -1,7 +1,7 @@
 # UNION BREAKPOINTS FROM SEVERAL FILES
 
 
-input_folder<-"E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\raw breakpoints\\structural mutation"
+input_folder<-"..\\data\\raw breakpoints\\structural mutation"
 setwd(input_folder)
 
 cancer_types <- list.dirs()
@@ -62,7 +62,7 @@ for (i in cancer_types){
 
 
 # DATA FOR ALL CANCERS IN ONE FILE
-input_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\raw breakpoints\\structural mutation"
+input_folder <- "..\\data\\raw breakpoints\\structural mutation"
 setwd(input_folder)
 
 cancer_files<-list.files()

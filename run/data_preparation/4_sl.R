@@ -1,5 +1,5 @@
 library(dplyr)
-setwd("E:/Учеба/Диплом/Diploma/data/secondary/STEMLOOPS")
+setwd("../data/secondary/STEMLOOPS")
 
 # 1 строка на 1 стемлуп
 
@@ -57,4 +57,4 @@ gc()
 sec_str_all$chr<-as.character(sec_str_all$chr)
 sec_str_all$chr<-gsub("chr","",sec_str_all$chr)
 
-write.csv(sec_str_all,file="stemloops_density_10k.csv",row.names = FALSE)
+write.csv(sec_str_all,file="../../preprocessed/stem-loops/stemloops_density_10k.csv",row.names = FALSE)

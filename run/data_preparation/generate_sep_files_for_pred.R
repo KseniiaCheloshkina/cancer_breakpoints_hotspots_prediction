@@ -4,14 +4,14 @@
 
 
 ############ STEMLOOPS
-f_to_write<-"E:\\Учеба\\Диплом\\Diploma\\data\\stemloops_mut\\data for pred\\"
-mut_fold<-"E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\"
+f_to_write<-"..\\data\\data for model\\stemloops_mut\\"
+mut_fold<-"..\\data\\preprocessed\\breakpoints\\"
 
 mut_f<-c("structural_mutation_final_10_kb.csv","structural_mutation_final_100_kb.csv",
          "structural_mutation_final_20_kb.csv","structural_mutation_final_50_kb.csv",
          "structural_mutation_final_500_kb.csv","structural_mutation_final_1_mb.csv")
 
-sec_str_fold<-"E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\STEMLOOPS\\"
+sec_str_fold<-"..\\data\\preprocessed\\stem-loops\\"
 
 sec_str<-c("stemloops_density_100k.csv","stemloops_density_10k.csv" ,
            "stemloops_density_1mb.csv","stemloops_density_20k.csv",
@@ -134,14 +134,15 @@ for (i in 1:length(list_y)){
 
 ######## QUADRUPLEXES
 
-f_to_write<-"E:\\Учеба\\Диплом\\Diploma\\data\\quadr_mut\\data for pred\\"
-mut_fold<-"E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\"
+f_to_write<-"..\\data\\data for model\\quadr_mut\\data for pred\\"
+mut_fold<-"..\\data\\preprocessed\\breakpoints\\"
+
 
 mut_f<-c("structural_mutation_final_10_kb.csv","structural_mutation_final_100_kb.csv",
          "structural_mutation_final_20_kb.csv","structural_mutation_final_50_kb.csv",
          "structural_mutation_final_500_kb.csv","structural_mutation_final_1_mb.csv")
 
-sec_str_fold<-"E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\QUADRUPLEXES\\"
+sec_str_fold<-"..\\data\\preprocessed\\quadruplexes\\"
 
 sec_str<-c("quadr_cov.csv","quadr_cov_1mb.csv" ,
            "quadr_cov_20kb.csv","quadr_cov_50kb.csv",

@@ -7,7 +7,7 @@ library(stringr)
 require(data.table)
 
 ## set working folder
-current_folder <- "E:\\Учеба\\Диплом\\Diploma\\scripts\\repo\\data\\adhoc\\cancers_cytoband\\"
+current_folder <- "..\data\\adhoc\\cancers_cytoband\\"
 setwd(current_folder)
 
 

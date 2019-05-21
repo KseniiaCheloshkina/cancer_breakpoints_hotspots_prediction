@@ -1,5 +1,5 @@
 library(dplyr)
-setwd("E:/Учеба/Диплом/Diploma/data/secondary/QUADRUPLEXES")
+setwd("../data/secondary/QUADRUPLEXES")
 
 
 
@@ -23,5 +23,5 @@ quadr_n$coverage_q<-quadr_n$length_q/10000
 names(quadr_n)[2]<-"from"
 
 
-write.csv(quadr_n,file="E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\QUADRUPLEXES\\quadr_cov.csv")
+write.csv(quadr_n,file="..\\data\\preprocessed\\quadruplexes\\quadr_cov.csv")
 # не во всех окнах есть квадруплекс, так что потом будет делать left join

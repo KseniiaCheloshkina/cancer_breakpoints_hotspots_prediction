@@ -88,7 +88,7 @@ bkpt <- function(all_data, chr_windows_1){
 #### CALCULATE BREAKPOINTS DENSITY FOR EACH CANCER TYPE
 
 
-input_folder<-"../Diploma/data/structural mutation/2_eda_preprocessing"
+input_folder<-"../data/raw breakpoints/structural mutation/2_eda_preprocessing"
 setwd(input_folder)
 output_folder<-"../3_breakpoints/"
 
@@ -116,7 +116,7 @@ for (j in cancer_types){
 
 #### CALCULATE STATS
 
-input_folder<-"../Diploma/data/structural mutation/2_eda_preprocessing"
+input_folder<-"../data/raw breakpoints/structural mutation/2_eda_preprocessing"
 setwd(input_folder)
 
 cancer_types<-list.files()
@@ -148,7 +148,7 @@ stats[,2:4]<-apply(stats[,2:4],2,function(x) as.numeric(as.character(x)))
 
 #### REMOVE Y CHROMOSOME FROM DATA
 
-input_folder<-"../Diploma/data/structural mutation/3_breakpoints"
+input_folder<-"../data/raw breakpoints/structural mutation/3_breakpoints"
 setwd(input_folder)
 
 cancer_types<-c("blood_all_data.csv","bone_all_data.csv","brain_all_data.csv", "breast_all_data.csv" ,"liver_all_data.csv","ovary_all_data.csv","pancreatic_all_data.csv",

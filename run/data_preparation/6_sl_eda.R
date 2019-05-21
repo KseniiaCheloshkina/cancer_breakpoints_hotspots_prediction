@@ -10,7 +10,7 @@ library(reshape)
 
 # боксплот по хромосомам положения структур по типам 
 # (смотрим, такие же ли отклонения от серединки)
-setwd("E:/Учеба/Диплом/Diploma/data/secondary/STEMLOOPS")
+setwd("../data/secondary/STEMLOOPS")
 s15_30<-read.table("sorted_all_chr_S15-30.bed")
 s15_30$str_mb<-floor(s15_30$V2/1000000)
 small_dat<-s15_30[seq(1,23757318,10),]
@@ -62,13 +62,13 @@ ggplot(data_stat_p,aes(x=chr,y=normalized_diff,fill=chr))+
 
 ## 2
 # отрисовать линейный график плотности
-data <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_10_kb.csv")
+data <- read.csv("..\data\\preprocessed\\breakpoints\\structural_mutation_final_10_kb.csv")
 data <- data[, c("chr", "from", "overall_density", "density_breast", "density_pancreatic")]
 data$chr <- as.character(data$chr)
 names(data)[3:5]<-c("breakpoints (general)", "breakpoints (breast)", 
                     "breakpoints (pancreatic)")
 
-sec_str <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\STEMLOOPS\\stemloops_density_10k.csv")
+sec_str <- read.csv("..\\data\\preprocessed\\stem-loops\\stemloops_density_10k.csv")
 sec_str <- sec_str[, c("chr", "from", "coverage_15_30", "coverage_sl_6_15", "coverage_16_50")]
 sec_str$chr <- as.character(sec_str$chr)
 sec_str$chr <- gsub("chr", "", sec_str$chr)
@@ -91,7 +91,7 @@ ggplot(chr_data,aes(x=from/1000000,y=value,colour=variable))+
 
 
 # добавим квадруплексы
-sec_str<-read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\QUADRUPLEXES\\quadr_cov_10kb.csv")
+sec_str<-read.csv("..\\data\\preprocessed\\quadruplexes\\quadr_cov_10kb.csv")
 sec_str<-sec_str[,c("chr","from","coverage_q")]
 sec_str$chr<-as.character(sec_str$chr)
 sec_str$chr<-gsub("chr","",sec_str$chr)
@@ -118,7 +118,7 @@ ggplot(chr_data, aes(x=from/1000000, y=value, colour=variable)) +
 
 ### CORRELATIONS
 
-mutations <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\structural mutation\\structural_mutation_final_1_mb.csv")
+mutations <- read.csv("..\\data\\preprocessed\\breakpoints\\structural_mutation_final_1_mb.csv")
 names(mutations)[which(names(mutations)=="new_wind")]<-"window"
 
 mutations <- mutations[, c("chr", "window", "from", "density_blood", "density_bone",
@@ -128,9 +128,7 @@ mutations <- mutations[, c("chr", "window", "from", "density_blood", "density_bo
 
 mutations$chr <- as.character(mutations$chr)
 
-# steml <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\STEMLOOPS\\stemloops_density_10k.csv")
-# steml <- steml[, c( "chr", "from", "coverage_16_50", "coverage_15_30", "coverage_sl_6_15")]
-steml <- read.csv("E:\\Учеба\\Диплом\\Diploma\\data\\secondary\\STEMLOOPS\\stemloops_density_1mb.csv")
+steml <- read.csv("..\\data\\preprocessed\\stem-loops\\stemloops_density_1mb.csv")
 steml<-steml[,c( "chr" ,"from","coverage_sl_16_50","coverage_sl_15_30","coverage_sl_6_15")]
 names(steml)[3:5] <- c("long stem-loops", "medium stem-loops", "short stem-loops")
 
