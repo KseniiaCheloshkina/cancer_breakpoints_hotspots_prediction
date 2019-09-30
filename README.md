@@ -37,5 +37,5 @@ Structure of repository:
    - data for model: preprocessed data in .R format (one file for each dataset) - input for modeling
    - results: classification reports and models' comparison
    - adhoc: data for ad-hoc analysis
-   Raw data are not included and are available from sources.
+  Raw data are not included and are available from sources.
 - requirements.txt: list of all packages needed for project
