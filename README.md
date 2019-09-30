@@ -31,10 +31,11 @@ Structure of repository:
     - report.Rmd: R markdown to visualize models performance
     - comparison.Rmd: R markdown to compare all models by visualizing results
 - dev: scripts for ad-hoc analysis
-- data: all data
-   - raw breakpoints: source data from ICGC (International Cancer Genome Consortium) with some intermediate data
-   - secondary: raw data of secondary structures
-   - preprocessed: preprocessed data in .csv format (by cancer type and aggregation level)
+- data: all preprocessed and output data
+   - raw breakpoints: preprocessed breakpoints data from ICGC (International Cancer Genome Consortium)
+   - preprocessed: preprocessed (aggregated by windows) data in .csv format (by cancer type and aggregation level)
    - data for model: preprocessed data in .R format (one file for each dataset) - input for modeling
+   - results: classification reports and models' comparison
    - adhoc: data for ad-hoc analysis
+   Raw data are not included and are available from sources.
 - requirements.txt: list of all packages needed for project
